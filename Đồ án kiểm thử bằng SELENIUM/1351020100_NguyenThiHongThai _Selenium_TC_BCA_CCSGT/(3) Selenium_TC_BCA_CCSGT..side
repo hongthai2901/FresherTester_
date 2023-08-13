@@ -1,0 +1,3705 @@
+{
+  "id": "c32fe93d-ff3e-4d6d-abb1-2d3f1d3f4452",
+  "version": "2.0",
+  "name": "Selenium_TC_BCA_CCSGT",
+  "url": "http://csgt.vn:8888/Home/FormNopHoSo/41",
+  "tests": [{
+    "id": "d8696269-3ab5-4774-a1dd-cf9a13e710f3",
+    "name": "TraCuuPhuongTien_TC (T)",
+    "commands": [{
+      "id": "f34c7648-b1f2-4242-b63f-c935d00b76bd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/tra-cuu-phuong-tien-vi-pham.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72cd20d5-1339-438d-be4b-d5a396508111",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1451x771",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d50a11f6-65fc-41a2-b932-2e2eb33b1ca2",
+      "comment": "",
+      "command": "click",
+      "target": "name=BienKiemSoat",
+      "targets": [
+        ["name=BienKiemSoat", "name"],
+        ["css=.item:nth-child(1) > .input", "css:finder"],
+        ["xpath=//input[@name='BienKiemSoat']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cdc213f-664b-4e13-920d-8e291b3df484",
+      "comment": "",
+      "command": "type",
+      "target": "name=BienKiemSoat",
+      "targets": [
+        ["name=BienKiemSoat", "name"],
+        ["css=.item:nth-child(1) > .input", "css:finder"],
+        ["xpath=//input[@name='BienKiemSoat']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "29C199999"
+    }, {
+      "id": "0c18d9f0-f574-4a65-8529-8b81523c3cc1",
+      "comment": "",
+      "command": "click",
+      "target": "name=LoaiXe",
+      "targets": [
+        ["name=LoaiXe", "name"],
+        ["css=.item:nth-child(2) > .input", "css:finder"],
+        ["xpath=//select[@name='LoaiXe']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4749c15d-d3a6-44a0-afe5-b5915e380758",
+      "comment": "",
+      "command": "click",
+      "target": "name=txt_captcha",
+      "targets": [
+        ["name=txt_captcha", "name"],
+        ["css=.flex > .input", "css:finder"],
+        ["xpath=//input[@name='txt_captcha']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "069ed969-3aba-43ef-9c81-66a7fb64db95",
+      "comment": "",
+      "command": "type",
+      "target": "name=txt_captcha",
+      "targets": [
+        ["name=txt_captcha", "name"],
+        ["css=.flex > .input", "css:finder"],
+        ["xpath=//input[@name='txt_captcha']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "wqqnq"
+    }, {
+      "id": "9215b975-2135-418d-8aa3-f3ab31314721",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnTraCuu",
+      "targets": [
+        ["css=.btnTraCuu", "css:finder"],
+        ["xpath=//input[@value='Tra cứu']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d30e8f6-a3bf-4c37-90a0-1c91b89801ca",
+      "comment": "",
+      "command": "click",
+      "target": "name=txt_captcha",
+      "targets": [
+        ["name=txt_captcha", "name"],
+        ["css=.flex > .input", "css:finder"],
+        ["xpath=//input[@name='txt_captcha']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e7a645d-b35e-455b-a7a0-13491236d09e",
+      "comment": "",
+      "command": "type",
+      "target": "name=txt_captcha",
+      "targets": [
+        ["name=txt_captcha", "name"],
+        ["css=.flex > .input", "css:finder"],
+        ["xpath=//input[@name='txt_captcha']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "wqqn6q"
+    }, {
+      "id": "1749682e-95ca-494e-b6d7-f38489334aa9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnTraCuu",
+      "targets": [
+        ["css=.btnTraCuu", "css:finder"],
+        ["xpath=//input[@value='Tra cứu']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8d30994-6dbf-45bf-b0a3-3bd61d14284f",
+      "comment": "",
+      "command": "click",
+      "target": "name=BienKiemSoat",
+      "targets": [
+        ["name=BienKiemSoat", "name"],
+        ["css=.item:nth-child(1) > .input", "css:finder"],
+        ["xpath=//input[@name='BienKiemSoat']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0986119e-1bb0-42e2-b2d2-51d0ea9e744c",
+      "comment": "",
+      "command": "click",
+      "target": "id=middle",
+      "targets": [
+        ["id=middle", "id"],
+        ["css=#middle", "css:finder"],
+        ["xpath=//div[@id='middle']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//center/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10ac04d7-e771-4ea0-944e-a76196769111",
+      "comment": "",
+      "command": "click",
+      "target": "name=BienKiemSoat",
+      "targets": [
+        ["name=BienKiemSoat", "name"],
+        ["css=.item:nth-child(1) > .input", "css:finder"],
+        ["xpath=//input[@name='BienKiemSoat']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4634c8ec-249b-4315-b4c5-afd2f3d0f7c7",
+      "comment": "",
+      "command": "type",
+      "target": "name=BienKiemSoat",
+      "targets": [
+        ["name=BienKiemSoat", "name"],
+        ["css=.item:nth-child(1) > .input", "css:finder"],
+        ["xpath=//input[@name='BienKiemSoat']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "20C-117.71"
+    }, {
+      "id": "4d225a29-2dee-41f4-ac3a-85a8c7cb9458",
+      "comment": "",
+      "command": "click",
+      "target": "name=LoaiXe",
+      "targets": [
+        ["name=LoaiXe", "name"],
+        ["css=.item:nth-child(2) > .input", "css:finder"],
+        ["xpath=//select[@name='LoaiXe']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac39735c-d20a-478c-a093-d4d4e1bee490",
+      "comment": "",
+      "command": "click",
+      "target": "name=txt_captcha",
+      "targets": [
+        ["name=txt_captcha", "name"],
+        ["css=.flex > .input", "css:finder"],
+        ["xpath=//input[@name='txt_captcha']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb85743c-8f71-4a1e-a937-be1979067453",
+      "comment": "",
+      "command": "type",
+      "target": "name=txt_captcha",
+      "targets": [
+        ["name=txt_captcha", "name"],
+        ["css=.flex > .input", "css:finder"],
+        ["xpath=//input[@name='txt_captcha']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "cmzjq7"
+    }, {
+      "id": "c58957e2-ca1b-4ea4-8565-db4fba537bb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnTraCuu",
+      "targets": [
+        ["css=.btnTraCuu", "css:finder"],
+        ["xpath=//input[@value='Tra cứu']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c2f90a4-25fc-4211-925e-2f3c6c933838",
+      "comment": "",
+      "command": "click",
+      "target": "name=BienKiemSoat",
+      "targets": [
+        ["name=BienKiemSoat", "name"],
+        ["css=.item:nth-child(1) > .input", "css:finder"],
+        ["xpath=//input[@name='BienKiemSoat']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6352789-4f94-4f12-aac1-39d9c912d5d0",
+      "comment": "",
+      "command": "click",
+      "target": "name=BienKiemSoat",
+      "targets": [
+        ["name=BienKiemSoat", "name"],
+        ["css=.item:nth-child(1) > .input", "css:finder"],
+        ["xpath=//input[@name='BienKiemSoat']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51911fa3-352c-4947-afd5-04744f78c739",
+      "comment": "",
+      "command": "click",
+      "target": "name=BienKiemSoat",
+      "targets": [
+        ["name=BienKiemSoat", "name"],
+        ["css=.item:nth-child(1) > .input", "css:finder"],
+        ["xpath=//input[@name='BienKiemSoat']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61b40387-1762-4312-8dd7-76cec4a83002",
+      "comment": "",
+      "command": "type",
+      "target": "name=BienKiemSoat",
+      "targets": [
+        ["name=BienKiemSoat", "name"],
+        ["css=.item:nth-child(1) > .input", "css:finder"],
+        ["xpath=//input[@name='BienKiemSoat']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "29C199999"
+    }, {
+      "id": "b9f13171-a81e-4b89-a31a-52ae4505bbb5",
+      "comment": "",
+      "command": "click",
+      "target": "name=LoaiXe",
+      "targets": [
+        ["name=LoaiXe", "name"],
+        ["css=.item:nth-child(2) > .input", "css:finder"],
+        ["xpath=//select[@name='LoaiXe']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cc53bba-7215-433a-99eb-efef5d147a4c",
+      "comment": "",
+      "command": "click",
+      "target": "name=txt_captcha",
+      "targets": [
+        ["name=txt_captcha", "name"],
+        ["css=.flex > .input", "css:finder"],
+        ["xpath=//input[@name='txt_captcha']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4474719c-a990-4a3a-9e95-65bd6d14e64a",
+      "comment": "",
+      "command": "type",
+      "target": "name=txt_captcha",
+      "targets": [
+        ["name=txt_captcha", "name"],
+        ["css=.flex > .input", "css:finder"],
+        ["xpath=//input[@name='txt_captcha']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "d448mk"
+    }, {
+      "id": "dcbb8bed-097d-4dd0-a7eb-2f5d84cefcd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnTraCuu",
+      "targets": [
+        ["css=.btnTraCuu", "css:finder"],
+        ["xpath=//input[@value='Tra cứu']", "xpath:attributes"],
+        ["xpath=//div[@id='formBSX']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "71e81bf1-d510-45be-b654-71cfaad2cb23",
+    "name": "TraCuuVB_QPPL_TTHC_TC (T)",
+    "commands": [{
+      "id": "e1dbbab3-6681-4b98-a010-f1090aa6fc4f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/vanbanphapluat/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42d0e5ec-2859-42e2-a755-9cbcaf1b70fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1463x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7c71c68-1e7b-4464-9727-1473b0d3e13f",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgd_keyword",
+      "targets": [
+        ["id=sgd_keyword", "id"],
+        ["name=sgd_keyword", "name"],
+        ["css=#sgd_keyword", "css:finder"],
+        ["xpath=//input[@id='sgd_keyword']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68c40bfd-bb28-4c75-bcaf-fe0dbff3fe29",
+      "comment": "",
+      "command": "type",
+      "target": "id=sgd_keyword",
+      "targets": [
+        ["id=sgd_keyword", "id"],
+        ["name=sgd_keyword", "name"],
+        ["css=#sgd_keyword", "css:finder"],
+        ["xpath=//input[@id='sgd_keyword']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Về công tác đảm bảo trật tự an toàn giao thông đường bộ trong tình hình mới"
+    }, {
+      "id": "a4bb13cf-1544-4377-a641-505595bb807c",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgd_field",
+      "targets": [
+        ["id=sgd_field", "id"],
+        ["name=sgd_field", "name"],
+        ["css=#sgd_field", "css:finder"],
+        ["xpath=//select[@id='sgd_field']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[2]/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "706857e2-d1fd-458d-b824-f6ecfdc3182f",
+      "comment": "",
+      "command": "select",
+      "target": "id=sgd_field",
+      "targets": [],
+      "value": "label=Văn bản Quản lý nhà nước"
+    }, {
+      "id": "7a65ccea-2a50-4ab9-a3b4-795bcc144916",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgd_type",
+      "targets": [
+        ["id=sgd_type", "id"],
+        ["name=sgd_type", "name"],
+        ["css=#sgd_type", "css:finder"],
+        ["xpath=//select[@id='sgd_type']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[3]/td[2]/select", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d17606c-c853-40d1-97b0-b5a744ac1c8c",
+      "comment": "",
+      "command": "select",
+      "target": "id=sgd_type",
+      "targets": [],
+      "value": "label=Chỉ thị"
+    }, {
+      "id": "be6ea2c8-0acd-4e56-9977-fe1883831dc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_center_content:nth-child(2) tr:nth-child(1) > td:nth-child(4)",
+      "targets": [
+        ["css=.box_center_content:nth-child(2) tr:nth-child(1) > td:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr/td[4]", "xpath:idRelative"],
+        ["xpath=//td[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd35c12d-950a-4508-9995-9b1aa200e0bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgd_code",
+      "targets": [
+        ["id=sgd_code", "id"],
+        ["name=sgd_code", "name"],
+        ["css=#sgd_code", "css:finder"],
+        ["xpath=//input[@id='sgd_code']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr/td[4]/input", "xpath:idRelative"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec76d361-40f3-40a8-ad7a-6fff4d97f0c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=sgd_code",
+      "targets": [
+        ["id=sgd_code", "id"],
+        ["name=sgd_code", "name"],
+        ["css=#sgd_code", "css:finder"],
+        ["xpath=//input[@id='sgd_code']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr/td[4]/input", "xpath:idRelative"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": "Chỉ thị 10/CT-TTg"
+    }, {
+      "id": "f028c14c-5dbe-4a65-b1ad-b8211c3e56e7",
+      "comment": "",
+      "command": "click",
+      "target": "name=sgd_submit",
+      "targets": [
+        ["name=sgd_submit", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='sgd_submit']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f8d93642-bfa9-4561-b858-f3df98721b26",
+    "name": "XemChiTiet_TrangChu_TC (T)",
+    "commands": [{
+      "id": "5eb831ac-ff27-4ef7-87b1-151e90488faa",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f61a5dd5-8614-42b2-9dba-a24822efb256",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1463x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81676b6c-b3cf-49b6-9640-a383e516caa1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.box_product_first > a > img",
+      "targets": [
+        ["css=.box_product_first > a > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.csgt.vn//lib/ckfinder/images/logo.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='features']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd55e686-bcb4-462e-b162-5af40981bb3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.line_product:nth-child(1) > a",
+      "targets": [
+        ["css=.line_product:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'CSGT Sơn La hóa “bà đỡ” giúp sản phụ sinh con ngay bên đường')])[2]", "xpath:link"],
+        ["xpath=//div[@id='testDiv2']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17293/CSGT-Son-La-hoa-ba-do-giup-san-phu-sinh-con-ngay-ben-duong.html')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b17125f-fbf1-4e4b-9184-b0faa33b02b8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT Hà Nội giúp người phụ nữ đi xe máy ngã bất tỉnh...",
+      "targets": [
+        ["linkText=CSGT Hà Nội giúp người phụ nữ đi xe máy ngã bất tỉnh...", "linkText"],
+        ["css=div:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT Hà Nội giúp người phụ nữ đi xe máy ngã bất tỉnh...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17268/CSGT-Ha-Noi-giup-nguoi-phu-nu-di-xe-may-nga-bat-tinh-giua-duong.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT Hà Nội giúp người phụ nữ đi xe máy ngã bất tỉnh...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbca7d13-4b8e-4cdf-9d39-656d1550d224",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT Hải Phòng \"Đội nắng\" đồng hành cùng thí sinh kỳ thi tuyển sinh lớp 10",
+      "targets": [
+        ["linkText=CSGT Hải Phòng \"Đội nắng\" đồng hành cùng thí sinh kỳ thi tuyển sinh lớp 10", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT Hải Phòng \"Đội nắng\" đồng hành cùng thí sinh kỳ thi tuyển sinh lớp 10')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17249/CSGT-Hai-Phong-Doi-nang-dông-hanh-cung-thi-sinh-ky-thi-tuyen-sinh-lop-10.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT Hải Phòng \"Đội nắng\" đồng hành cùng thí sinh kỳ thi tuyển sinh lớp 10')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bed676a7-1b4f-4409-8222-4a9eaae743cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=li img",
+      "targets": [
+        ["css=li img", "css:finder"],
+        ["xpath=//div[@id='myslidemenu']/ul/li/a/img", "xpath:idRelative"],
+        ["xpath=//li/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad3883ea-72e7-458c-ae00-93d129b8ed17",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1800.0001220703125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33bae967-55b6-4547-b018-01837ed7cb88",
+      "comment": "",
+      "command": "click",
+      "target": "id=radPoll_0",
+      "targets": [
+        ["id=radPoll_0", "id"],
+        ["name=radPoll", "name"],
+        ["css=#radPoll_0", "css:finder"],
+        ["xpath=//input[@id='radPoll_0']", "xpath:attributes"],
+        ["xpath=//div[@id='div_poll']/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[2]/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2d2616e-d9b2-4f7f-a4db-c7407463c858",
+      "comment": "",
+      "command": "click",
+      "target": "id=radPoll_1",
+      "targets": [
+        ["id=radPoll_1", "id"],
+        ["css=#radPoll_1", "css:finder"],
+        ["xpath=//input[@id='radPoll_1']", "xpath:attributes"],
+        ["xpath=//div[@id='div_poll']/div[2]/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[2]/form/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2670e43-a158-4d37-985a-b2b1ff73a762",
+      "comment": "",
+      "command": "click",
+      "target": "id=radPoll_2",
+      "targets": [
+        ["id=radPoll_2", "id"],
+        ["css=#radPoll_2", "css:finder"],
+        ["xpath=//input[@id='radPoll_2']", "xpath:attributes"],
+        ["xpath=//div[@id='div_poll']/div[2]/form/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df1e4df2-cafd-43cc-a08f-f2bff169fd0f",
+      "comment": "",
+      "command": "click",
+      "target": "id=pollButton",
+      "targets": [
+        ["id=pollButton", "id"],
+        ["css=#pollButton", "css:finder"],
+        ["xpath=//input[@id='pollButton']", "xpath:attributes"],
+        ["xpath=//div[@id='div_poll']/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cac7d59-3e9d-413b-864b-59be510ffc00",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2300.37744140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cd4a63f-62af-4466-9c53-380746a8811f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quy tắc giao thông tại các tuyến đường bộ giao nhau với đường sắt",
+      "targets": [
+        ["linkText=Quy tắc giao thông tại các tuyến đường bộ giao nhau với đường sắt", "linkText"],
+        ["css=.faq_content:nth-child(10) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Quy tắc giao thông tại các tuyến đường bộ giao nhau với đường sắt')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div[6]/div[6]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16633/Quy-tac-giao-thong-tai-cac-tuyen-duong-bo-giao-nhau-voi-duong-sat.html')]", "xpath:href"],
+        ["xpath=//div[6]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quy tắc giao thông tại các tuyến đường bộ giao nhau với đường sắt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7358a43-fece-49ca-aee7-4649564ac9f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Áp dụng quy định mới nhất về mức lãi chậm nộp phạt vi...",
+      "targets": [
+        ["linkText=Áp dụng quy định mới nhất về mức lãi chậm nộp phạt vi...", "linkText"],
+        ["css=div:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Áp dụng quy định mới nhất về mức lãi chậm nộp phạt vi...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17035/Ap-dung-quy-dinh-moi-nhat-ve-muc-lai-cham-nop-phat-vi-pham-giao-thong-tu-5/5.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Áp dụng quy định mới nhất về mức lãi chậm nộp phạt vi...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ec24274-c194-4bf8-8e38-2ffcef3558f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.banner img",
+      "targets": [
+        ["css=.banner img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.csgt.vn//upload/banner/19226_banner_csgt.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='page']/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eb16b29-7f14-43ee-87db-bcfacfdac288",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecee5c47-42bf-413a-aca5-59bdef615763",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1700.37744140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "924841d5-052a-4a50-b7dc-6c55c9272342",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lái xe ô tô sử dụng ma tuý, chạy quá tốc độ",
+      "targets": [
+        ["linkText=Lái xe ô tô sử dụng ma tuý, chạy quá tốc độ", "linkText"],
+        ["css=.box_video:nth-child(8) .info_news_second:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Lái xe ô tô sử dụng ma tuý, chạy quá tốc độ')])[2]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div[8]/div[3]/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17245/Lai-xe-o-to-su-dung-ma-tuy,-chay-qua-toc-do.html')])[3]", "xpath:href"],
+        ["xpath=//div[8]/div[3]/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91393bd0-3030-4e69-9b8d-ed3fcff3ffe1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Vi phạm tốc độ trên quốc lộ 2, tài xế bỏ chạy hàng cây số rồi cố thủ trong ô tô",
+      "targets": [
+        ["linkText=Vi phạm tốc độ trên quốc lộ 2, tài xế bỏ chạy hàng cây số rồi cố thủ trong ô tô", "linkText"],
+        ["css=.box_video:nth-child(8) .info_news_second:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vi phạm tốc độ trên quốc lộ 2, tài xế bỏ chạy hàng cây số rồi cố thủ trong ô tô')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div[8]/div[3]/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17250/Vi-pham-toc-do-tren-quoc-lo-2,-tai-xe-bo-chay-hang-cay-so-rôi-co-thu-trong-o-to.html')])[3]", "xpath:href"],
+        ["xpath=//div[8]/div[3]/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vi phạm tốc độ trên quốc lộ 2, tài xế bỏ chạy hàng cây số rồi cố thủ trong ô tô')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d837952-90c9-467c-bacf-11bf812ae318",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Say xỉn đâm trọng thương thiếu tá CSGT, tài xế hối lỗi ở nhà tạm giam",
+      "targets": [
+        ["linkText=Say xỉn đâm trọng thương thiếu tá CSGT, tài xế hối lỗi ở nhà tạm giam", "linkText"],
+        ["css=.box_video:nth-child(8) .info_news_second:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Say xỉn đâm trọng thương thiếu tá CSGT, tài xế hối lỗi ở nhà tạm giam')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div[8]/div[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17255/Say-xin-dam-trong-thuong-thieu-ta-CSGT,-tai-xe-hoi-loi-o-nha-tam-giam.html')]", "xpath:href"],
+        ["xpath=//div[8]/div[3]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Say xỉn đâm trọng thương thiếu tá CSGT, tài xế hối lỗi ở nhà tạm giam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0611bb91-6d26-495c-8971-caea73325cae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nghiêm trị những hành vi càn quấy trên đường",
+      "targets": [
+        ["linkText=Nghiêm trị những hành vi càn quấy trên đường", "linkText"],
+        ["css=.box_video:nth-child(7) .info_news_second:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Nghiêm trị những hành vi càn quấy trên đường')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div[7]/div[3]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16851/Nghiem-tri-nhung-hanh-vi-can-quay-tren-duong.html')]", "xpath:href"],
+        ["xpath=//div[7]/div[3]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nghiêm trị những hành vi càn quấy trên đường')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0d9670a-86d6-42cd-a309-abc551b9240e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tăng cường sự lãnh đạo của Đảng đối với công tác bảo đảm trật tự, an toàn giao...",
+      "targets": [
+        ["linkText=Tăng cường sự lãnh đạo của Đảng đối với công tác bảo đảm trật tự, an toàn giao...", "linkText"],
+        ["css=.box_video:nth-child(7) .info_news_second:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tăng cường sự lãnh đạo của Đảng đối với công tác bảo đảm trật tự, an toàn giao...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div[7]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17195/Tang-cuong-su-lanh-dao-cua-Dang-doi-voi-cong-tac-bao-dam-trat-tu,-an-toan-giao-thong-trong-tinh-hinh-moi.html')]", "xpath:href"],
+        ["xpath=//div[7]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tăng cường sự lãnh đạo của Đảng đối với công tác bảo đảm trật tự, an toàn giao...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c28ca7fc-fdf8-45f4-b7d1-a63913e39998",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_home_news_home_rel:nth-child(8)",
+      "targets": [
+        ["css=.box_home_news_home_rel:nth-child(8)", "css:finder"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[7]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eb17ce5-ae78-4239-a155-96ff6a89f468",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sử dụng “giấy đăng kiểm giả” có thể bị khởi tố hình sự",
+      "targets": [
+        ["linkText=Sử dụng “giấy đăng kiểm giả” có thể bị khởi tố hình sự", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sử dụng “giấy đăng kiểm giả” có thể bị khởi tố hình sự')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16742/Su-dung-giay-dang-kiem-gia-co-the-bi-khoi-to-hinh-su.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sử dụng “giấy đăng kiểm giả” có thể bị khởi tố hình sự')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf601503-134d-4611-9e3b-0a615560c07b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_home_news_home_rel:nth-child(9) > a",
+      "targets": [
+        ["css=.box_home_news_home_rel:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Xử lý vi phạm nồng độ cồn để người dân \"tâm phục\"')])[2]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/16732/Xu-ly-vi-pham-nông-do-côn-de-nguoi-dan-tam-phuc.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a03203a-e5de-462f-9dd0-e3fff0055092",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Siết chặt kiểm tra tài xế say xỉn, tai nạn giao thông giảm mạnh",
+      "targets": [
+        ["linkText=Siết chặt kiểm tra tài xế say xỉn, tai nạn giao thông giảm mạnh", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Siết chặt kiểm tra tài xế say xỉn, tai nạn giao thông giảm mạnh')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16870/Siet-chat-kiem-tra-tai-xe-say-xin,-tai-nan-giao-thong-giam-manh.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Siết chặt kiểm tra tài xế say xỉn, tai nạn giao thông giảm mạnh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53fb457b-e11d-4ac1-a248-9fa3ec284820",
+      "comment": "",
+      "command": "click",
+      "target": "css=.banner img",
+      "targets": [
+        ["css=.banner img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.csgt.vn//upload/banner/19226_banner_csgt.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='page']/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e619f177-f5c3-4a68-8e78-434bead13650",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link_hot:nth-child(5)",
+      "targets": [
+        ["css=.link_hot:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='main_middle']/div[3]/div/div[2]/div[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae82784f-955d-4ef1-82bd-ce500bf72b29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link_hot:nth-child(5) > a",
+      "targets": [
+        ["css=.link_hot:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Vận dụng tư tưởng Hồ Chí Minh về thi đua yêu nước trong bảo đảm TTATGT, TTTXH')])[3]", "xpath:link"],
+        ["xpath=//div[@id='main_middle']/div[3]/div/div[2]/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17273/Van-dung-tu-tuong-Hô-Chi-Minh-ve-thi-dua-yeu-nuoc-trong-bao-dam-TTATGT,-TTTXH.html')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13b5b82a-8dae-4f5f-b7f5-da489999c31b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bộ câu hỏi lý thuyết sát hạch lái xe trong CAND",
+      "targets": [
+        ["linkText=Bộ câu hỏi lý thuyết sát hạch lái xe trong CAND", "linkText"],
+        ["css=div:nth-child(4) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Bộ câu hỏi lý thuyết sát hạch lái xe trong CAND')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17129/Bo-cau-hoi-ly-thuyet-sat-hach-lai-xe-trong-CAND.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Bộ câu hỏi lý thuyết sát hạch lái xe trong CAND')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "044f7b76-5915-4ee6-b7bd-77151da90b27",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tăng cường sự lãnh đạo của Đảng đối với công tác...",
+      "targets": [
+        ["linkText=Tăng cường sự lãnh đạo của Đảng đối với công tác...", "linkText"],
+        ["css=div:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tăng cường sự lãnh đạo của Đảng đối với công tác...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17195/Tang-cuong-su-lanh-dao-cua-Dang-doi-voi-cong-tac-bao-dam-trat-tu,-an-toan-giao-thong-trong-tinh-hinh-moi.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tăng cường sự lãnh đạo của Đảng đối với công tác...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0d75e14-839c-4aa7-b407-34a045509f45",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Siết chặt kiểm tra tài xế say xỉn, tai nạn giao thông giảm...",
+      "targets": [
+        ["linkText=Siết chặt kiểm tra tài xế say xỉn, tai nạn giao thông giảm...", "linkText"],
+        ["css=div:nth-child(5) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Siết chặt kiểm tra tài xế say xỉn, tai nạn giao thông giảm...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[4]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/16870/Siet-chat-kiem-tra-tai-xe-say-xin,-tai-nan-giao-thong-giam-manh.html')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Siết chặt kiểm tra tài xế say xỉn, tai nạn giao thông giảm...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c3a54dcf-099c-4a98-a257-e18921b13b6b",
+    "name": "Import_TC (T)",
+    "commands": [{
+      "id": "1f693867-8e51-4782-9961-291b1957e526",
+      "comment": "",
+      "command": "open",
+      "target": "http://csgt.vn:8888/Home/FormNopHoSo/41",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5ae0389-b27b-446e-b274-f192410ad4dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1451x771",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7603d85b-c1b5-42aa-8065-803ec45e590e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ckLoaiXe:nth-child(3) > #LoaiXe",
+      "targets": [
+        ["css=.ckLoaiXe:nth-child(3) > #LoaiXe", "css:finder"],
+        ["xpath=(//input[@id='LoaiXe'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div/span[3]/input", "xpath:idRelative"],
+        ["xpath=//span[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eae3b44-b713-4fc6-ae7a-efebc9e38e4f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=select2-chosen-1",
+      "targets": [
+        ["id=select2-chosen-1", "id"],
+        ["css=#select2-chosen-1", "css:finder"],
+        ["xpath=//span[@id='select2-chosen-1']", "xpath:attributes"],
+        ["xpath=//div[@id='s2id_TinhID']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df7f687c-aca5-4e57-b4a1-f943ab74ade7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=select2-chosen-1",
+      "targets": [
+        ["id=select2-chosen-1", "id"],
+        ["css=#select2-chosen-1", "css:finder"],
+        ["xpath=//span[@id='select2-chosen-1']", "xpath:attributes"],
+        ["xpath=//div[@id='s2id_TinhID']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1f5a42c-984a-440f-820e-58088da860cb",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=select2-chosen-1",
+      "targets": [
+        ["id=select2-chosen-1", "id"],
+        ["css=#select2-chosen-1", "css:finder"],
+        ["xpath=//span[@id='select2-chosen-1']", "xpath:attributes"],
+        ["xpath=//div[@id='s2id_TinhID']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e019b32d-062b-41a9-93a9-00c2f9732a85",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=select2-drop-mask",
+      "targets": [
+        ["id=select2-drop-mask", "id"],
+        ["css=#select2-drop-mask", "css:finder"],
+        ["xpath=//div[@id='select2-drop-mask']", "xpath:attributes"],
+        ["xpath=//body/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aad5766-58f0-4124-8ba1-05e1cfd53180",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerName",
+      "targets": [
+        ["id=CustomerName", "id"],
+        ["name=CustomerName", "name"],
+        ["css=#CustomerName", "css:finder"],
+        ["xpath=//input[@id='CustomerName']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f135bd85-b6d6-457c-bc2b-525530a5bf21",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerName",
+      "targets": [
+        ["id=CustomerName", "id"],
+        ["name=CustomerName", "name"],
+        ["css=#CustomerName", "css:finder"],
+        ["xpath=//input[@id='CustomerName']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "Phan Mạnh Hùng"
+    }, {
+      "id": "97d01ebd-7a0b-4eeb-ad8b-83782e5c3e31",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerIdentity",
+      "targets": [
+        ["id=CustomerIdentity", "id"],
+        ["name=CustomerIdentity", "name"],
+        ["css=#CustomerIdentity", "css:finder"],
+        ["xpath=//input[@id='CustomerIdentity']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe522a2d-fd9c-4e90-9799-dd1ad306c3de",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerIdentity",
+      "targets": [
+        ["id=CustomerIdentity", "id"],
+        ["name=CustomerIdentity", "name"],
+        ["css=#CustomerIdentity", "css:finder"],
+        ["xpath=//input[@id='CustomerIdentity']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "036987632222"
+    }, {
+      "id": "84198b43-4b23-45b2-aa84-0aa73101b57f",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerIdentityDate",
+      "targets": [
+        ["id=CustomerIdentityDate", "id"],
+        ["name=CustomerIdentityDate", "name"],
+        ["css=#CustomerIdentityDate", "css:finder"],
+        ["xpath=//input[@id='CustomerIdentityDate']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[8]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3774a0a-a027-4234-8dab-d3b3de19512b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > .day:nth-child(5)",
+      "targets": [
+        ["css=tr:nth-child(1) > .day:nth-child(5)", "css:finder"],
+        ["xpath=//div[6]/div/table/tbody/tr/td[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdc353c0-fe54-473e-9f25-c9379c96af13",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerIdentityAddr",
+      "targets": [
+        ["id=CustomerIdentityAddr", "id"],
+        ["name=CustomerIdentityAddr", "name"],
+        ["css=#CustomerIdentityAddr", "css:finder"],
+        ["xpath=//input[@id='CustomerIdentityAddr']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[8]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[8]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34331ecd-4bfc-4d4e-97e0-7a1ae2fa4281",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerIdentityAddr",
+      "targets": [
+        ["id=CustomerIdentityAddr", "id"],
+        ["name=CustomerIdentityAddr", "name"],
+        ["css=#CustomerIdentityAddr", "css:finder"],
+        ["xpath=//input[@id='CustomerIdentityAddr']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[8]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[8]/input[3]", "xpath:position"]
+      ],
+      "value": "Đà Nẵng"
+    }, {
+      "id": "a10b6724-31e5-4685-bb3b-0c5f753dc18a",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerYear",
+      "targets": [
+        ["id=CustomerYear", "id"],
+        ["name=CustomerYear", "name"],
+        ["css=#CustomerYear", "css:finder"],
+        ["xpath=//input[@id='CustomerYear']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[7]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3f004a9-568f-47e0-8209-86432394c47b",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerYear",
+      "targets": [
+        ["id=CustomerYear", "id"],
+        ["name=CustomerYear", "name"],
+        ["css=#CustomerYear", "css:finder"],
+        ["xpath=//input[@id='CustomerYear']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[7]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/input[2]", "xpath:position"]
+      ],
+      "value": "1986"
+    }, {
+      "id": "c19d20c9-fdd4-4da2-a261-f52ecd2ab03d",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerAddress",
+      "targets": [
+        ["id=CustomerAddress", "id"],
+        ["name=CustomerAddress", "name"],
+        ["css=#CustomerAddress", "css:finder"],
+        ["xpath=//textarea[@id='CustomerAddress']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[9]/textarea", "xpath:idRelative"],
+        ["xpath=//div[9]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "215755dc-d7b7-43a4-841d-75c8682d024e",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerAddress",
+      "targets": [
+        ["id=CustomerAddress", "id"],
+        ["name=CustomerAddress", "name"],
+        ["css=#CustomerAddress", "css:finder"],
+        ["xpath=//textarea[@id='CustomerAddress']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[9]/textarea", "xpath:idRelative"],
+        ["xpath=//div[9]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b81a6eca-87f5-4feb-81de-31ce131235ab",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerAddress",
+      "targets": [
+        ["id=CustomerAddress", "id"],
+        ["name=CustomerAddress", "name"],
+        ["css=#CustomerAddress", "css:finder"],
+        ["xpath=//textarea[@id='CustomerAddress']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[9]/textarea", "xpath:idRelative"],
+        ["xpath=//div[9]/textarea", "xpath:position"]
+      ],
+      "value": "2 Lý Tự Trọng"
+    }, {
+      "id": "5fcaea48-aa66-4882-b374-b95bba208de6",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerPhone",
+      "targets": [
+        ["id=CustomerPhone", "id"],
+        ["name=CustomerPhone", "name"],
+        ["css=#CustomerPhone", "css:finder"],
+        ["xpath=//input[@id='CustomerPhone']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8079c680-93fd-4a41-9495-fdadacba43b2",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPhone",
+      "targets": [
+        ["id=CustomerPhone", "id"],
+        ["name=CustomerPhone", "name"],
+        ["css=#CustomerPhone", "css:finder"],
+        ["xpath=//input[@id='CustomerPhone']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "03689645566"
+    }, {
+      "id": "1cc215ee-4594-4a1c-9a2d-15a2e6997632",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=CustomerEmail", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[10]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[10]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "382b2af3-16b4-49af-ba03-d0608c91606d",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=CustomerEmail", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[10]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[10]/input[2]", "xpath:position"]
+      ],
+      "value": "ManhHung123@gmail.com"
+    }, {
+      "id": "f640ef87-d6e0-44c7-97d4-d11e7f5d208c",
+      "comment": "",
+      "command": "click",
+      "target": "name=GiayToStr",
+      "targets": [
+        ["name=GiayToStr", "name"],
+        ["css=tr:nth-child(1) .ckItem", "css:finder"],
+        ["xpath=//input[@name='GiayToStr']", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[12]/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05421809-425a-45cb-8564-e88a89f1beb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .ckItem",
+      "targets": [
+        ["css=tr:nth-child(2) .ckItem", "css:finder"],
+        ["xpath=(//input[@name='GiayToStr'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[12]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3d6d285-ca5e-49a1-8248-6b8e77934035",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='pfile']/div[5]/div[12]/table/tbody/tr[4]/td", "xpath:idRelative"],
+        ["xpath=//tr[4]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74cce44b-6903-4c1d-a5ef-7bf93abea305",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) .ckItem",
+      "targets": [
+        ["css=tr:nth-child(4) .ckItem", "css:finder"],
+        ["xpath=(//input[@name='GiayToStr'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[12]/table/tbody/tr[4]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af17f7bb-eab1-4896-a141-438807dee186",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .ckItem",
+      "targets": [
+        ["css=tr:nth-child(3) .ckItem", "css:finder"],
+        ["xpath=(//input[@name='GiayToStr'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[12]/table/tbody/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "593741e6-e9e4-420c-854c-8a62e9579bba",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .ckItem",
+      "targets": [
+        ["css=tr:nth-child(5) .ckItem", "css:finder"],
+        ["xpath=(//input[@name='GiayToStr'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[12]/table/tbody/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a79298c4-8d98-42eb-8890-1c13fc6ae0ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(6) .ckItem",
+      "targets": [
+        ["css=tr:nth-child(6) .ckItem", "css:finder"],
+        ["xpath=(//input[@name='GiayToStr'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='pfile']/div[5]/div[12]/table/tbody/tr[6]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1185f57d-8afb-4f3b-a06e-79fd9cf779b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=pfile",
+      "targets": [
+        ["id=pfile", "id"],
+        ["css=#pfile", "css:finder"],
+        ["xpath=//div[@id='pfile']", "xpath:attributes"],
+        ["xpath=//div[@id='B33']/div", "xpath:idRelative"],
+        ["xpath=//form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45788612-ff1c-4c64-ac12-d7dc17b7faa4",
+      "comment": "",
+      "command": "click",
+      "target": "id=B33",
+      "targets": [
+        ["id=B33", "id"],
+        ["css=#B33", "css:finder"],
+        ["xpath=//div[@id='B33']", "xpath:attributes"],
+        ["xpath=//form[@id='nopHsForm']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a01370fc-397c-4a4f-8b85-ff75fb3ca8ff",
+    "name": "Export_TC (F)",
+    "commands": []
+  }, {
+    "id": "4b59ad60-b685-4fcd-818c-f5cbe4b0d897",
+    "name": "YKienCD_TC (T)",
+    "commands": [{
+      "id": "c8b9237f-221a-4d9d-8cee-840cbce8997c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/ykiencongdan/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "380a652c-f555-400e-bbf6-31e22bc31781",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1463x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ce80b23-d613-4aca-b022-191d20fa0da1",
+      "comment": "",
+      "command": "click",
+      "target": "name=FullName",
+      "targets": [
+        ["name=FullName", "name"],
+        ["css=tr:nth-child(2) .contact_text", "css:finder"],
+        ["xpath=//input[@name='FullName']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03aee423-ad84-43d0-9da8-fdc5949e1cd7",
+      "comment": "",
+      "command": "click",
+      "target": "name=FullName",
+      "targets": [
+        ["name=FullName", "name"],
+        ["css=tr:nth-child(2) .contact_text", "css:finder"],
+        ["xpath=//input[@name='FullName']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e0710ec-9f9f-4a92-9e1a-d80f8ccb1129",
+      "comment": "",
+      "command": "type",
+      "target": "name=FullName",
+      "targets": [
+        ["name=FullName", "name"],
+        ["css=tr:nth-child(2) .contact_text", "css:finder"],
+        ["xpath=//input[@name='FullName']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Đoàn Thị Mai"
+    }, {
+      "id": "04b29e04-fec4-49a1-beb5-d1caba6b7ba6",
+      "comment": "",
+      "command": "click",
+      "target": "name=Email",
+      "targets": [
+        ["name=Email", "name"],
+        ["css=tr:nth-child(3) .contact_text", "css:finder"],
+        ["xpath=//input[@name='Email']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65a1fec6-2a0c-47ce-b7fe-2f0e8b7a97b9",
+      "comment": "",
+      "command": "type",
+      "target": "name=Email",
+      "targets": [
+        ["name=Email", "name"],
+        ["css=tr:nth-child(3) .contact_text", "css:finder"],
+        ["xpath=//input[@name='Email']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Mai123@gmail.com"
+    }, {
+      "id": "065c36bb-f1cd-49e7-8675-de2c4abdb4d6",
+      "comment": "",
+      "command": "click",
+      "target": "name=Subject",
+      "targets": [
+        ["name=Subject", "name"],
+        ["css=tr:nth-child(4) .contact_text", "css:finder"],
+        ["xpath=//input[@name='Subject']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45c0163b-0a5c-42ec-8fd3-90612dcae8da",
+      "comment": "",
+      "command": "type",
+      "target": "name=Subject",
+      "targets": [
+        ["name=Subject", "name"],
+        ["css=tr:nth-child(4) .contact_text", "css:finder"],
+        ["xpath=//input[@name='Subject']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Góp ý kiến"
+    }, {
+      "id": "6108e4a4-6985-4ad4-9a67-a15712136c21",
+      "comment": "",
+      "command": "click",
+      "target": "id=guest",
+      "targets": [
+        ["id=guest", "id"],
+        ["name=guest", "name"],
+        ["css=#guest", "css:finder"],
+        ["xpath=//select[@id='guest']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[5]/td[2]/select", "xpath:idRelative"],
+        ["xpath=//td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7372652b-c97b-438b-9569-cae20b2d94f5",
+      "comment": "",
+      "command": "select",
+      "target": "id=guest",
+      "targets": [],
+      "value": "label=Góp ý chung"
+    }, {
+      "id": "b9ddf742-ffd2-44bd-ba7b-da05edb1e301",
+      "comment": "",
+      "command": "click",
+      "target": "name=Content",
+      "targets": [
+        ["name=Content", "name"],
+        ["css=tr:nth-child(6) .contact_text", "css:finder"],
+        ["xpath=//textarea[@name='Content']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[6]/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c325c2b-7aa1-4334-8990-1e06c78ef8d4",
+      "comment": "",
+      "command": "type",
+      "target": "name=Content",
+      "targets": [
+        ["name=Content", "name"],
+        ["css=tr:nth-child(6) .contact_text", "css:finder"],
+        ["xpath=//textarea[@name='Content']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[6]/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Công dân việt nam luôn chấp hành đúng công tác giao thông"
+    }, {
+      "id": "dc82f51b-5e43-48ed-b9e1-ca37b37cd750",
+      "comment": "",
+      "command": "click",
+      "target": "css=td > input:nth-child(2)",
+      "targets": [
+        ["css=td > input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='txt_captcha'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[7]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddd341f9-8ebe-4ac7-8888-7cb84a832d98",
+      "comment": "",
+      "command": "type",
+      "target": "css=td > input:nth-child(2)",
+      "targets": [
+        ["css=td > input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='txt_captcha'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[7]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "ckqfbs"
+    }, {
+      "id": "ac9ab4c7-349a-4962-9b0f-36c27306fd80",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(8) input",
+      "targets": [
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@value='Gửi ý kiến']", "xpath:attributes"],
+        ["xpath=//div[@id='advance']/div/div[2]/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e53688c5-7d1c-4050-8b88-f131a567d87a",
+    "name": "TimKiemNhanh_TC (F)",
+    "commands": []
+  }, {
+    "id": "0b254acf-e448-415b-a003-49d577dc4886",
+    "name": "XemChiTiet_GT_TC (T)",
+    "commands": [{
+      "id": "bedcca45-ded9-440d-a9cf-0d4ad49a0507",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/tintuc/c-90/Gioi-thieu.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a969cabd-a4aa-43f5-9979-6bbdabc98578",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1463x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffd722c6-12a3-43f6-85f7-fd81d61dc2d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT Hà Nội phạt hàng trăm người điều khiển xe máy chạy ngược chiều",
+      "targets": [
+        ["linkText=CSGT Hà Nội phạt hàng trăm người điều khiển xe máy chạy ngược chiều", "linkText"],
+        ["css=.list:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT Hà Nội phạt hàng trăm người điều khiển xe máy chạy ngược chiều')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16890/CSGT-Ha-Noi-phat-hang-tram-nguoi-dieu-khien-xe-may-chay-nguoc-chieu.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT Hà Nội phạt hàng trăm người điều khiển xe máy chạy ngược chiều')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6625fef3-a79c-4e19-9df0-80a6e9c07bdd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,13.584906578063965)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c9f1c8c-f05d-4dd4-a2b5-c0083ef27970",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thông báo số điện thoại đường dây nóng và trực ban",
+      "targets": [
+        ["linkText=Thông báo số điện thoại đường dây nóng và trực ban", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Thông báo số điện thoại đường dây nóng và trực ban')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/8824/Thong-bao-so-dien-thoai-duong-day-nong-va-truc-ban.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Thông báo số điện thoại đường dây nóng và trực ban')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3196625-dab4-4e16-a539-6f8abd164385",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CỤC CẢNH SÁT GIAO THÔNG",
+      "targets": [
+        ["linkText=CỤC CẢNH SÁT GIAO THÔNG", "linkText"],
+        ["css=div:nth-child(3) > div:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CỤC CẢNH SÁT GIAO THÔNG')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/3464/CUC-CANH-SAT-GIAO-THONG.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CỤC CẢNH SÁT GIAO THÔNG')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48524264-c434-4973-a46f-35e3acc8ac40",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thông tin về Cục CSGT",
+      "targets": [
+        ["linkText=Thông tin về Cục CSGT", "linkText"],
+        ["css=li:nth-child(4) li:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Thông tin về Cục CSGT')]", "xpath:link"],
+        ["xpath=//div[@id='myslidemenu']/ul/li[3]/ul/li/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/c-153/Thong-tin-ve-Cuc-CSGT.html')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thông tin về Cục CSGT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a4117c9-74d6-4fda-84fd-664997273040",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CỤC CẢNH SÁT GIAO THÔNG",
+      "targets": [
+        ["linkText=CỤC CẢNH SÁT GIAO THÔNG", "linkText"],
+        ["css=.list:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CỤC CẢNH SÁT GIAO THÔNG')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/3464/CUC-CANH-SAT-GIAO-THONG.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CỤC CẢNH SÁT GIAO THÔNG')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d3e0e5e-f961-42a2-97c7-261a212354bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Số ĐT đường dây nóng của Cục CSGT và các địa phương",
+      "targets": [
+        ["linkText=Số ĐT đường dây nóng của Cục CSGT và các địa phương", "linkText"],
+        ["css=li:nth-child(4) li:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Số ĐT đường dây nóng của Cục CSGT và các địa phương')]", "xpath:link"],
+        ["xpath=//div[@id='myslidemenu']/ul/li[3]/ul/li[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/c-154/So-DT-duong-day-nong-cua-Cuc-CSGT-va-cac-dia-phuong.html')]", "xpath:href"],
+        ["xpath=//li[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Số ĐT đường dây nóng của Cục CSGT và các địa phương')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "95c7d33e-b98d-4b6b-8041-3f2e13031b0b",
+    "name": "XemChiTiet_24/7_TC (T)",
+    "commands": [{
+      "id": "1f9fa217-c40a-45a3-a07e-1b5e389f6b6d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/tintuc/c-91/Canh-sat-giao-thong-24/7.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76c2b88a-3620-426b-a5b3-13275432ddbb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1463x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ba412d9-b8c6-40ce-b163-0100c71ca687",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gần 6.600 “thần cồn” hiện hình tại miền núi Sơn La",
+      "targets": [
+        ["linkText=Gần 6.600 “thần cồn” hiện hình tại miền núi Sơn La", "linkText"],
+        ["css=.list:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Gần 6.600 “thần cồn” hiện hình tại miền núi Sơn La')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17292/Gan-6.600-than-côn-hien-hinh-tai-mien-nui-Son-La.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gần 6.600 “thần cồn” hiện hình tại miền núi Sơn La')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a824737c-d967-4bcb-b0b1-b3006b070f26",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đội CSGT Bình Triệu hỗ trợ người dân tìm lại xe máy bị...",
+      "targets": [
+        ["linkText=Đội CSGT Bình Triệu hỗ trợ người dân tìm lại xe máy bị...", "linkText"],
+        ["css=div:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Đội CSGT Bình Triệu hỗ trợ người dân tìm lại xe máy bị...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17283/Doi-CSGT-Binh-Trieu-ho-tro-nguoi-dan-tim-lai-xe-may-bi-mat-trom.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Đội CSGT Bình Triệu hỗ trợ người dân tìm lại xe máy bị...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34808efb-61e7-4ecc-9c0f-45551480c4e0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đắk Nông – TTATGT chuyển biến sau 15 ngày tăng cường xuống...",
+      "targets": [
+        ["linkText=Đắk Nông – TTATGT chuyển biến sau 15 ngày tăng cường xuống...", "linkText"],
+        ["css=div:nth-child(4) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Đắk Nông – TTATGT chuyển biến sau 15 ngày tăng cường xuống...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17281/Dak-Nong-–-TTATGT-chuyen-bien-sau-15-ngay-tang-cuong-xuong-tan-buon-lang-xu-ly-vi-pham-giao-thong.html')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Đắk Nông – TTATGT chuyển biến sau 15 ngày tăng cường xuống...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e09aa3a-1790-4515-a9a7-aff8adbcefb7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Liên tiếp phát hiện nhiều vụ vận chuyển thuốc lá không...",
+      "targets": [
+        ["linkText=Liên tiếp phát hiện nhiều vụ vận chuyển thuốc lá không...", "linkText"],
+        ["css=div:nth-child(5) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Liên tiếp phát hiện nhiều vụ vận chuyển thuốc lá không...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[4]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17280/Lien-tiep-phat-hien-nhieu-vu-van-chuyen-thuoc-la-khong-ro-nguôn-goc-tren-Quoc-lo-60.html')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Liên tiếp phát hiện nhiều vụ vận chuyển thuốc lá không...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5e7c72f-4fb1-4e22-90df-c3604222bc87",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,43.01887130737305)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "747a8bd3-ab42-4649-8e29-1e111192d821",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tình hình TTATGT ngày 08/6/2023",
+      "targets": [
+        ["linkText=Tình hình TTATGT ngày 08/6/2023", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tình hình TTATGT ngày 08/6/2023')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17288/Tinh-hinh-TTATGT-ngay-08/6/2023.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tình hình TTATGT ngày 08/6/2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c365805f-976c-424b-bb22-e4916d8e7506",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Điểm báo ngày 08/6/2023",
+      "targets": [
+        ["linkText=Điểm báo ngày 08/6/2023", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Điểm báo ngày 08/6/2023')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17282/Diem-bao-ngay-08/6/2023.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Điểm báo ngày 08/6/2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38c4294f-9ba3-4ad7-b598-f6a4d32faccd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Liên tiếp phát hiện nhiều vụ vận chuyển thuốc lá không rõ nguồn gốc trên Quốc lộ 60",
+      "targets": [
+        ["linkText=Liên tiếp phát hiện nhiều vụ vận chuyển thuốc lá không rõ nguồn gốc trên Quốc lộ 60", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Liên tiếp phát hiện nhiều vụ vận chuyển thuốc lá không rõ nguồn gốc trên Quốc lộ 60')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17280/Lien-tiep-phat-hien-nhieu-vu-van-chuyen-thuoc-la-khong-ro-nguôn-goc-tren-Quoc-lo-60.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Liên tiếp phát hiện nhiều vụ vận chuyển thuốc lá không rõ nguồn gốc trên Quốc lộ 60')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d469ea7-bc8e-432f-b446-b21bc322941b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tình hình TTATGT ngày 07/6/2023",
+      "targets": [
+        ["linkText=Tình hình TTATGT ngày 07/6/2023", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tình hình TTATGT ngày 07/6/2023')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17287/Tinh-hinh-TTATGT-ngay-07/6/2023.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tình hình TTATGT ngày 07/6/2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8f0a151-2e8c-40c3-91f3-968f6b231bc3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6.792453289031982)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aca2ec58-593a-4fe0-8f5d-61ddbb3a53c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Điểm báo ngày 07/6/2023",
+      "targets": [
+        ["linkText=Điểm báo ngày 07/6/2023", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Điểm báo ngày 07/6/2023')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17274/Diem-bao-ngay-07/6/2023.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Điểm báo ngày 07/6/2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52834efb-f80d-42a7-8cef-d523876270a9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hoạt động lãnh đạo",
+      "targets": [
+        ["linkText=Hoạt động lãnh đạo", "linkText"],
+        ["css=li:nth-child(6) li:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hoạt động lãnh đạo')]", "xpath:link"],
+        ["xpath=//div[@id='myslidemenu']/ul/li[5]/ul/li/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/c-208/Hoat-dong-lanh-dao.html')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hoạt động lãnh đạo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de38eb7d-36bb-45d8-ba78-29015536c3dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phòng chống dịch Covid-19",
+      "targets": [
+        ["linkText=Phòng chống dịch Covid-19", "linkText"],
+        ["css=li:nth-child(6) li:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Phòng chống dịch Covid-19')]", "xpath:link"],
+        ["xpath=//div[@id='myslidemenu']/ul/li[5]/ul/li[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/c-234/Phong-chong-dich-Covid-19.html')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Phòng chống dịch Covid-19')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cdc3d29-66e4-471e-becc-b6819c65761c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=24h của Cảnh sát giao thông",
+      "targets": [
+        ["linkText=24h của Cảnh sát giao thông", "linkText"],
+        ["css=li:nth-child(6) li:nth-child(3) a", "css:finder"],
+        ["xpath=//a[contains(text(),'24h của Cảnh sát giao thông')]", "xpath:link"],
+        ["xpath=//div[@id='myslidemenu']/ul/li[5]/ul/li[3]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/c-209/24h-cua-Canh-sat-giao-thong.html')]", "xpath:href"],
+        ["xpath=//li[3]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'24h của Cảnh sát giao thông')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6e349fb-4bf9-4b16-bb5d-70f9f04982a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gần 6.600 “thần cồn” hiện hình tại miền núi Sơn La",
+      "targets": [
+        ["linkText=Gần 6.600 “thần cồn” hiện hình tại miền núi Sơn La", "linkText"],
+        ["css=.list:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Gần 6.600 “thần cồn” hiện hình tại miền núi Sơn La')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17292/Gan-6.600-than-côn-hien-hinh-tai-mien-nui-Son-La.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gần 6.600 “thần cồn” hiện hình tại miền núi Sơn La')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f21e0db0-79d9-4a3b-a247-ef534b831874",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1.5094339847564697)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e921773b-f4c2-4e46-9a93-9def29dabdf6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đội CSGT Bình Triệu hỗ trợ người dân tìm lại xe máy bị...",
+      "targets": [
+        ["linkText=Đội CSGT Bình Triệu hỗ trợ người dân tìm lại xe máy bị...", "linkText"],
+        ["css=div:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Đội CSGT Bình Triệu hỗ trợ người dân tìm lại xe máy bị...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17283/Doi-CSGT-Binh-Trieu-ho-tro-nguoi-dan-tim-lai-xe-may-bi-mat-trom.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Đội CSGT Bình Triệu hỗ trợ người dân tìm lại xe máy bị...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef55743f-d04f-43ad-bbc0-a54c7d5d1a9e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cuộc thi viết về hình ảnh người chiến sĩ CSGT",
+      "targets": [
+        ["linkText=Cuộc thi viết về hình ảnh người chiến sĩ CSGT", "linkText"],
+        ["css=li:nth-child(6) li:nth-child(4) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cuộc thi viết về hình ảnh người chiến sĩ CSGT')]", "xpath:link"],
+        ["xpath=//div[@id='myslidemenu']/ul/li[5]/ul/li[4]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/c-214/Cuoc-thi-viet-ve-hinh-anh-nguoi-chien-si-CSGT.html')]", "xpath:href"],
+        ["xpath=//li[4]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cuộc thi viết về hình ảnh người chiến sĩ CSGT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b2e3d8b-724d-4c9c-a9be-74d726c13b50",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nắng cháy da nhưng giao thông không thể tắc!",
+      "targets": [
+        ["linkText=Nắng cháy da nhưng giao thông không thể tắc!", "linkText"],
+        ["css=.list:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Nắng cháy da nhưng giao thông không thể tắc!')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/12165/Nang-chay-da-nhung-giao-thong-khong-the-tac!.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nắng cháy da nhưng giao thông không thể tắc!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94a3b18d-0cf2-4f1c-aac9-ab0024677baf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cao điểm bảo đảm TTATGT",
+      "targets": [
+        ["linkText=Cao điểm bảo đảm TTATGT", "linkText"],
+        ["css=li:nth-child(6) li:nth-child(5) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cao điểm bảo đảm TTATGT')]", "xpath:link"],
+        ["xpath=//div[@id='myslidemenu']/ul/li[5]/ul/li[5]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/c-213/Cao-diem-bao-dam-TTATGT.html')]", "xpath:href"],
+        ["xpath=//li[5]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cao điểm bảo đảm TTATGT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db49c743-5dc3-4c81-beed-46d4b1e651d2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Hiệu quả sau khi thực hiện cao điểm đảm bảo trật tự, an toàn giao thông Tết Quý Mão 2023",
+      "targets": [
+        ["linkText=Hiệu quả sau khi thực hiện cao điểm đảm bảo trật tự, an toàn giao thông Tết Quý Mão 2023", "linkText"],
+        ["css=.list:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hiệu quả sau khi thực hiện cao điểm đảm bảo trật tự, an toàn giao thông Tết Quý Mão 2023')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16534/Hiẹu-quả-sau-khi-thuc-hien-cao-diem-dam-bao-trat-tu,-an-toan-giao-thong-Tet-Quy-Mao-2023.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hiệu quả sau khi thực hiện cao điểm đảm bảo trật tự, an toàn giao thông Tết Quý Mão 2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2039f0f-7092-4888-af45-02daedfef671",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hiệu quả sau khi thực hiện cao điểm đảm bảo trật tự, an toàn giao thông Tết Quý Mão 2023",
+      "targets": [
+        ["linkText=Hiệu quả sau khi thực hiện cao điểm đảm bảo trật tự, an toàn giao thông Tết Quý Mão 2023", "linkText"],
+        ["css=.list:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hiệu quả sau khi thực hiện cao điểm đảm bảo trật tự, an toàn giao thông Tết Quý Mão 2023')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16534/Hiẹu-quả-sau-khi-thuc-hien-cao-diem-dam-bao-trat-tu,-an-toan-giao-thong-Tet-Quy-Mao-2023.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hiệu quả sau khi thực hiện cao điểm đảm bảo trật tự, an toàn giao thông Tết Quý Mão 2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4ed4623-5679-4c3d-bc3a-d6b79e9f8d42",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thông tin GPLX CAND",
+      "targets": [
+        ["linkText=Thông tin GPLX CAND", "linkText"],
+        ["css=li:nth-child(6) li:nth-child(6) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Thông tin GPLX CAND')]", "xpath:link"],
+        ["xpath=//div[@id='myslidemenu']/ul/li[5]/ul/li[6]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/c-237/Thong-tin-GPLX-CAND.html')]", "xpath:href"],
+        ["xpath=//li[6]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thông tin GPLX CAND')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c07a4a5b-38cb-408c-93cb-3ec3a8a8a183",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thông báo danh sách Giấy phép lái xe Công an nhân dân khai báo mất (01/6/2023)",
+      "targets": [
+        ["linkText=Thông báo danh sách Giấy phép lái xe Công an nhân dân khai báo mất (01/6/2023)", "linkText"],
+        ["css=.list:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Thông báo danh sách Giấy phép lái xe Công an nhân dân khai báo mất (01/6/2023)')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17291/Thong-bao-danh-sach-Giay-phep-lai-xe-Cong-an-nhan-dan-khai-bao-mat-(01/6/2023).html')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thông báo danh sách Giấy phép lái xe Công an nhân dân khai báo mất (01/6/2023)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c09da92a-d69d-4b37-afb7-4b902ec038f3",
+    "name": "XemChiTiet_ATGT_TC (T)",
+    "commands": [{
+      "id": "11631d7c-8771-4bc8-a198-9e3d4ef4c5bd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/tintuc/c-50/An-toan-giao-thong.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "491c9ebb-ace9-4651-a6bb-3559e16ddf69",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1463x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37bd2238-0c02-4a34-a827-1b88e875472d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thị xã Phú Mỹ ra quân bảo đảm trật tự an toàn giao thông",
+      "targets": [
+        ["linkText=Thị xã Phú Mỹ ra quân bảo đảm trật tự an toàn giao thông", "linkText"],
+        ["css=.list:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Thị xã Phú Mỹ ra quân bảo đảm trật tự an toàn giao thông')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17248/Thi-xa-Phu-My-ra-quan-bao-dam-trat-tu-an-toan-giao-thong.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thị xã Phú Mỹ ra quân bảo đảm trật tự an toàn giao thông')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0b5a7dc-e276-4ffe-b513-04f8abe28bad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kỹ năng phòng cháy xe ô tô trong ngày nắng nóng",
+      "targets": [
+        ["linkText=Kỹ năng phòng cháy xe ô tô trong ngày nắng nóng", "linkText"],
+        ["css=div:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Kỹ năng phòng cháy xe ô tô trong ngày nắng nóng')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17243/Ky-nang-phong-chay-xe-o-to-trong-ngay-nang-nong.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Kỹ năng phòng cháy xe ô tô trong ngày nắng nóng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fe68541-4def-4417-a718-507c931a9a6a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600.0000610351562)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b0e9305-7273-47a7-8456-04bc1d99d97e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gia tăng tình trạng học sinh vi phạm Luật Giao thông đường...",
+      "targets": [
+        ["linkText=Gia tăng tình trạng học sinh vi phạm Luật Giao thông đường...", "linkText"],
+        ["css=div:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Gia tăng tình trạng học sinh vi phạm Luật Giao thông đường...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17199/Gia-tang-tinh-trang-hoc-sinh-vi-pham-Luat-Giao-thong-duong-bo-tai-Binh-Phuoc.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Gia tăng tình trạng học sinh vi phạm Luật Giao thông đường...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aeb55ee-0956-452b-bf9c-94fc377b38b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > a:nth-child(2)",
+      "targets": [
+        ["css=div:nth-child(4) > a:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Tuyên truyền luật ATGT cho học sinh tại các trường học')])[2]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17162/Tuyen-truyen-luat-ATGT-cho-hoc-sinh-tai-cac-truong-hoc.html')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "303aa27a-19f3-4dbc-91c0-c182d8571108",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT Công an huyện Bát Xát tăng cường công tác tuyên truyền...",
+      "targets": [
+        ["linkText=CSGT Công an huyện Bát Xát tăng cường công tác tuyên truyền...", "linkText"],
+        ["css=div:nth-child(5) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT Công an huyện Bát Xát tăng cường công tác tuyên truyền...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[4]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17163/CSGT-Cong-an-huyen-Bat-Xat-tang-cuong-cong-tac-tuyen-truyen-phap-luat-ATGT-cho-dông-bao-dan-toc.html')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT Công an huyện Bát Xát tăng cường công tác tuyên truyền...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a39f090-c49d-4a44-bbc4-90b32b6ce9d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_home_news_home_rel:nth-child(6)",
+      "targets": [
+        ["css=.box_home_news_home_rel:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[5]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f211434-ed82-49d6-b482-af8f5d75ccdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_home_news_home_rel:nth-child(6) > a",
+      "targets": [
+        ["css=.box_home_news_home_rel:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Tuyên truyền pháp luật về TTATGT cho hội viên Hội Nông dân')])[2]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17159/Tuyen-truyen-phap-luat-ve-TTATGT-cho-hoi-vien-Hoi-Nong-dan.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c5fe9d3-5a5b-4391-aa43-99dbacc9a3f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT Công an huyện Bát Xát tăng cường công tác tuyên truyền pháp luật ATGT cho đồng bào dân tộc",
+      "targets": [
+        ["linkText=CSGT Công an huyện Bát Xát tăng cường công tác tuyên truyền pháp luật ATGT cho đồng bào dân tộc", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT Công an huyện Bát Xát tăng cường công tác tuyên truyền pháp luật ATGT cho đồng bào dân tộc')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17163/CSGT-Cong-an-huyen-Bat-Xat-tang-cuong-cong-tac-tuyen-truyen-phap-luat-ATGT-cho-dông-bao-dan-toc.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT Công an huyện Bát Xát tăng cường công tác tuyên truyền pháp luật ATGT cho đồng bào dân tộc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6620b37c-9be9-4ef4-b89b-0d95e8ed780f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nhân rộng mô hình 'Cổng trường An toàn giao thông'",
+      "targets": [
+        ["linkText=Nhân rộng mô hình 'Cổng trường An toàn giao thông'", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(7) > a", "css:finder"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"https://www.csgt.vn/tintuc/17133/Nhan-rong-mo-hinh-'Cong-truong-An-toan-giao-thong'.html\")]", "xpath:href"],
+        ["xpath=//div[3]/div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb93e7f1-c5d6-4978-ad3e-129a54534b30",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TNGT giảm cả 03 tiêu chí trong 05 ngày nghỉ Lễ dịp 30/4-1/5",
+      "targets": [
+        ["linkText=TNGT giảm cả 03 tiêu chí trong 05 ngày nghỉ Lễ dịp 30/4-1/5", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TNGT giảm cả 03 tiêu chí trong 05 ngày nghỉ Lễ dịp 30/4-1/5')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17013/TNGT-giam-ca-03-tieu-chi-trong-05-ngay-nghi-Le-dip-30/4-1/5.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TNGT giảm cả 03 tiêu chí trong 05 ngày nghỉ Lễ dịp 30/4-1/5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc61d4d1-5178-4ecb-b7bd-0c572bdef7df",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nhân rộng mô hình 'Cổng trường An toàn giao thông'",
+      "targets": [
+        ["linkText=Nhân rộng mô hình 'Cổng trường An toàn giao thông'", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(8) > a", "css:finder"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"https://www.csgt.vn/tintuc/17133/Nhan-rong-mo-hinh-'Cong-truong-An-toan-giao-thong'.html\")]", "xpath:href"],
+        ["xpath=//div[3]/div[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3daa355-f2b2-43f5-ae68-18cef2892261",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_home_news_home_rel:nth-child(8)",
+      "targets": [
+        ["css=.box_home_news_home_rel:nth-child(8)", "css:finder"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[7]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f0e643b-9086-494b-a11b-8d73659eab09",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Công an tỉnh Bến Tre tổ chức thông tin các dự án Luật do Bộ Công an chủ trì soạn thảo",
+      "targets": [
+        ["linkText=Công an tỉnh Bến Tre tổ chức thông tin các dự án Luật do Bộ Công an chủ trì soạn thảo", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Công an tỉnh Bến Tre tổ chức thông tin các dự án Luật do Bộ Công an chủ trì soạn thảo')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17087/Cong-an-tinh-Ben-Tre-to-chuc-thong-tin-cac-du-an-Luat-do-Bo-Cong-an-chu-tri-soan-thao.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Công an tỉnh Bến Tre tổ chức thông tin các dự án Luật do Bộ Công an chủ trì soạn thảo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb7b8c56-4c66-4806-9b74-7d2fa1dc4c12",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tuyên truyền pháp luật về TTATGT cho hội viên Hội Nông dân",
+      "targets": [
+        ["linkText=Tuyên truyền pháp luật về TTATGT cho hội viên Hội Nông dân", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tuyên truyền pháp luật về TTATGT cho hội viên Hội Nông dân')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17159/Tuyen-truyen-phap-luat-ve-TTATGT-cho-hoi-vien-Hoi-Nong-dan.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tuyên truyền pháp luật về TTATGT cho hội viên Hội Nông dân')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e134dc7-ec82-4837-8942-ddb558f48df0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT Công an huyện Bát Xát tăng cường công tác tuyên truyền pháp luật ATGT cho đồng bào dân tộc",
+      "targets": [
+        ["linkText=CSGT Công an huyện Bát Xát tăng cường công tác tuyên truyền pháp luật ATGT cho đồng bào dân tộc", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT Công an huyện Bát Xát tăng cường công tác tuyên truyền pháp luật ATGT cho đồng bào dân tộc')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17163/CSGT-Cong-an-huyen-Bat-Xat-tang-cuong-cong-tac-tuyen-truyen-phap-luat-ATGT-cho-dông-bao-dan-toc.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT Công an huyện Bát Xát tăng cường công tác tuyên truyền pháp luật ATGT cho đồng bào dân tộc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2294c865-4d11-4cda-aeef-ba09c38eff70",
+    "name": "XemChiTiet_ATGT2023_TC (T)",
+    "commands": [{
+      "id": "d8ff0d92-1d07-43a5-b314-0dd03a323c9d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/tintuc/c-235/Chuong-trinh-Sang-kien-ATGT-2023.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a9a5448-a0ea-4faf-830b-1069dd9787f3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1463x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "541df1e5-0e40-4ba5-ae2f-e55b8ae112f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hội tụ tinh hoa của người dân với công tác bảo đảm TTATGT",
+      "targets": [
+        ["linkText=Hội tụ tinh hoa của người dân với công tác bảo đảm TTATGT", "linkText"],
+        ["css=.list:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hội tụ tinh hoa của người dân với công tác bảo đảm TTATGT')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16887/Hoi-tu-tinh-hoa-cua-nguoi-dan-voi-cong-tac-bao-dam-TTATGT.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hội tụ tinh hoa của người dân với công tác bảo đảm TTATGT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49a89c7f-9784-4b5b-973c-d0982b3c13d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thể lệ Cuộc thi Sáng kiến \"An toàn giao thông Việt Nam năm...",
+      "targets": [
+        ["linkText=Thể lệ Cuộc thi Sáng kiến \"An toàn giao thông Việt Nam năm...", "linkText"],
+        ["css=div:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Thể lệ Cuộc thi Sáng kiến \"An toàn giao thông Việt Nam năm...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/16842/The-le-Cuoc-thi-Sang-kien-An-toan-giao-thong-Viet-Nam-nam-2023.html')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Thể lệ Cuộc thi Sáng kiến \"An toàn giao thông Việt Nam năm...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff410b8a-0f6b-4fe2-aa51-59df01ad0bb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > a:nth-child(2)",
+      "targets": [
+        ["css=div:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Khởi động chương trình Sáng kiến ATGT năm 2023')])[2]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/16805/Khoi-dong-chuong-trinh-Sang-kien-ATGT-nam-2023.html')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc6c34bd-5683-4899-922b-3089e33424fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > a:nth-child(2)",
+      "targets": [
+        ["css=div:nth-child(4) > a:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Chương trình \"Sáng kiến An toàn giao thông Việt Nam\" năm 2023')])[2]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/16799/Chuong-trinh-Sang-kien-An-toan-giao-thong-Viet-Nam-nam-2023.html')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40f15226-ab10-4640-ad52-a9041cb61781",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Giải pháp bỏ đèn đỏ và tổ chức phân luồng giao thông...",
+      "targets": [
+        ["linkText=Giải pháp bỏ đèn đỏ và tổ chức phân luồng giao thông...", "linkText"],
+        ["css=div:nth-child(5) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Giải pháp bỏ đèn đỏ và tổ chức phân luồng giao thông...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[4]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/16428/Giai-phap-bo-dèn-do-va-to-chuc-phan-luông-giao-thong-duong-bo-tai-Thu-do-Ha-Noi,-Thanh-pho-Hô-Chi-Minh-de-khong-un-tac.html')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Giải pháp bỏ đèn đỏ và tổ chức phân luồng giao thông...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94296b8e-a3a9-45f9-b479-261ad7aaf94a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi",
+      "targets": [
+        ["linkText=Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16232/Sang-kien-an-toan-giao-thong-nam-2022---Thanh-cong-ngoai-mong-doi.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b4e58d1-3348-4f3e-b8e0-c0d2135b3775",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,740.3773803710938)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "530436d8-c835-463a-b42e-486dda95d3d6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chung kết Sáng kiến An toàn giao thông: Nhiều tác phẩm có tính ứng dụng cao",
+      "targets": [
+        ["linkText=Chung kết Sáng kiến An toàn giao thông: Nhiều tác phẩm có tính ứng dụng cao", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Chung kết Sáng kiến An toàn giao thông: Nhiều tác phẩm có tính ứng dụng cao')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16230/Chung-ket-Sang-kien-An-toan-giao-thong:-Nhieu-tac-pham-co-tinh-ung-dung-cao.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chung kết Sáng kiến An toàn giao thông: Nhiều tác phẩm có tính ứng dụng cao')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "886adf92-cd96-4a38-a830-f7b037393f8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_home_news_home_rel:nth-child(9)",
+      "targets": [
+        ["css=.box_home_news_home_rel:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[8]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6366c0b6-4d3d-47ff-a84f-d53e59fa7fcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_home_news_home_rel:nth-child(9) > a",
+      "targets": [
+        ["css=.box_home_news_home_rel:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'15 tác phẩm vào Chung kết Cuộc thi \"Sáng kiến An toàn giao thông năm 2022\"')])[2]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/16206/15-tac-pham-vao-Chung-ket-Cuoc-thi-Sang-kien-An-toan-giao-thong-nam-2022.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa727922-7134-4903-b79d-2f6617a19f89",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi",
+      "targets": [
+        ["linkText=Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16232/Sang-kien-an-toan-giao-thong-nam-2022---Thanh-cong-ngoai-mong-doi.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d182c922-f43c-4b86-b83d-a2fec7912c80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thể lệ Cuộc thi Sáng kiến \"An toàn giao thông Việt Nam năm...",
+      "targets": [
+        ["linkText=Thể lệ Cuộc thi Sáng kiến \"An toàn giao thông Việt Nam năm...", "linkText"],
+        ["css=div:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Thể lệ Cuộc thi Sáng kiến \"An toàn giao thông Việt Nam năm...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/16842/The-le-Cuoc-thi-Sang-kien-An-toan-giao-thong-Viet-Nam-nam-2023.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Thể lệ Cuộc thi Sáng kiến \"An toàn giao thông Việt Nam năm...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3773db64-8358-4818-88b2-6ab83d6322a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu_active",
+      "targets": [
+        ["css=.menu_active", "css:finder"],
+        ["xpath=//div[@id='myslidemenu']/ul/li[9]/a/span", "xpath:idRelative"],
+        ["xpath=//li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Chương trình Sáng kiến ATGT 2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4cceeba-69fb-4a4b-ae37-67c739eedaec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500.37738037109375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2eb90ec5-b599-4cc0-bab0-0fb80fcb9162",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chung kết Sáng kiến An toàn giao thông: Nhiều tác phẩm có tính ứng dụng cao",
+      "targets": [
+        ["linkText=Chung kết Sáng kiến An toàn giao thông: Nhiều tác phẩm có tính ứng dụng cao", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Chung kết Sáng kiến An toàn giao thông: Nhiều tác phẩm có tính ứng dụng cao')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16230/Chung-ket-Sang-kien-An-toan-giao-thong:-Nhieu-tac-pham-co-tinh-ung-dung-cao.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chung kết Sáng kiến An toàn giao thông: Nhiều tác phẩm có tính ứng dụng cao')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06aa9870-866c-4c57-bbe0-44eb972cbbb8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi",
+      "targets": [
+        ["linkText=Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16232/Sang-kien-an-toan-giao-thong-nam-2022---Thanh-cong-ngoai-mong-doi.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "290a0e5d-c67f-48e3-a2e1-2e38d173a9f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu_active",
+      "targets": [
+        ["css=.menu_active", "css:finder"],
+        ["xpath=//div[@id='myslidemenu']/ul/li[9]/a/span", "xpath:idRelative"],
+        ["xpath=//li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Chương trình Sáng kiến ATGT 2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aaa3fff8-4013-4273-8ead-bc1dc46b2750",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Giải pháp bỏ đèn đỏ và tổ chức phân luồng giao thông đường bộ tại Thủ đô Hà Nội, Thành phố Hồ Chí Minh để không ùn tắc",
+      "targets": [
+        ["linkText=Giải pháp bỏ đèn đỏ và tổ chức phân luồng giao thông đường bộ tại Thủ đô Hà Nội, Thành phố Hồ Chí Minh để không ùn tắc", "linkText"],
+        ["css=.list:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Giải pháp bỏ đèn đỏ và tổ chức phân luồng giao thông đường bộ tại Thủ đô Hà Nội, Thành phố Hồ Chí Minh để không ùn tắc')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16428/Giai-phap-bo-dèn-do-va-to-chuc-phan-luông-giao-thong-duong-bo-tai-Thu-do-Ha-Noi,-Thanh-pho-Hô-Chi-Minh-de-khong-un-tac.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Giải pháp bỏ đèn đỏ và tổ chức phân luồng giao thông đường bộ tại Thủ đô Hà Nội, Thành phố Hồ Chí Minh để không ùn tắc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53475479-51c4-442e-9c39-ed2c8c6744fe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi",
+      "targets": [
+        ["linkText=Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi", "linkText"],
+        ["css=.list:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16232/Sang-kien-an-toan-giao-thong-nam-2022---Thanh-cong-ngoai-mong-doi.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sáng kiến an toàn giao thông năm 2022 - Thành công ngoài mong đợi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75fffb5e-0eac-4867-b728-a20a701b9c28",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đóng góp sang kiến về ATGT – Ring ngay giải thưởng lớn",
+      "targets": [
+        ["linkText=Đóng góp sang kiến về ATGT – Ring ngay giải thưởng lớn", "linkText"],
+        ["css=.list:nth-child(20) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Đóng góp sang kiến về ATGT – Ring ngay giải thưởng lớn')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[20]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/15762/Dong-gop-sang-kien-ve-ATGT-–-Ring-ngay-giai-thuong-lon.html')]", "xpath:href"],
+        ["xpath=//div[20]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đóng góp sang kiến về ATGT – Ring ngay giải thưởng lớn')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "adffa8b2-27d1-4c17-bf93-835ee40ff8c6",
+    "name": "XemChiTiet_NguoiTotViecTot_TC (T)",
+    "commands": [{
+      "id": "e99d8f7e-da3a-4ed8-9e4c-9c3d62559fe0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/tintuc/c-149/Nguoi-tot-viec-tot.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5eb4af5d-085b-46a9-9ed0-a756fe637638",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1463x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf8f3f1c-9d70-4649-84c9-0112fcbb9cb3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT Sơn La hóa “bà đỡ” giúp sản phụ sinh con ngay bên đường",
+      "targets": [
+        ["linkText=CSGT Sơn La hóa “bà đỡ” giúp sản phụ sinh con ngay bên đường", "linkText"],
+        ["css=.list:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT Sơn La hóa “bà đỡ” giúp sản phụ sinh con ngay bên đường')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17293/CSGT-Son-La-hoa-ba-do-giup-san-phu-sinh-con-ngay-ben-duong.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT Sơn La hóa “bà đỡ” giúp sản phụ sinh con ngay bên đường')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8e0bee7-c35c-4b1e-8ebc-4f65624c2bea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT Hà Nội giúp người phụ nữ đi xe máy ngã bất tỉnh...",
+      "targets": [
+        ["linkText=CSGT Hà Nội giúp người phụ nữ đi xe máy ngã bất tỉnh...", "linkText"],
+        ["css=div:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT Hà Nội giúp người phụ nữ đi xe máy ngã bất tỉnh...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17268/CSGT-Ha-Noi-giup-nguoi-phu-nu-di-xe-may-nga-bat-tinh-giua-duong.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT Hà Nội giúp người phụ nữ đi xe máy ngã bất tỉnh...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46f5dba8-244a-4610-930b-3c0c3c4b6859",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT xử lý vết dầu loang trên đường vành đai 3",
+      "targets": [
+        ["linkText=CSGT xử lý vết dầu loang trên đường vành đai 3", "linkText"],
+        ["css=div:nth-child(4) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT xử lý vết dầu loang trên đường vành đai 3')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17261/CSGT-xu-ly-vet-dau-loang-tren-duong-vanh-dai-3.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT xử lý vết dầu loang trên đường vành đai 3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "183d2aa5-f64c-4359-aa38-ff5e9f528b82",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT kịp thời khuyên ngăn thanh niên định tự tử",
+      "targets": [
+        ["linkText=CSGT kịp thời khuyên ngăn thanh niên định tự tử", "linkText"],
+        ["css=div:nth-child(5) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT kịp thời khuyên ngăn thanh niên định tự tử')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[4]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17253/CSGT-kip-thoi-khuyen-ngan-thanh-nien-dinh-tu-tu.html')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT kịp thời khuyên ngăn thanh niên định tự tử')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "212a80c1-fbef-41fc-bdb9-395ceebe885a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xúc động trước hình ảnh Trung tá CSGT làm \"shipper\"",
+      "targets": [
+        ["linkText=Xúc động trước hình ảnh Trung tá CSGT làm \"shipper\"", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Xúc động trước hình ảnh Trung tá CSGT làm \"shipper\"')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17257/Xuc-dong-truoc-hinh-anh-Trung-ta-CSGT-lam-shipper.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xúc động trước hình ảnh Trung tá CSGT làm \"shipper\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed034d68-53a1-4fa8-aaad-8f4ce8e3b60b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT Hải Phòng \"Đội nắng\" đồng hành cùng thí sinh kỳ thi tuyển sinh lớp 10",
+      "targets": [
+        ["linkText=CSGT Hải Phòng \"Đội nắng\" đồng hành cùng thí sinh kỳ thi tuyển sinh lớp 10", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT Hải Phòng \"Đội nắng\" đồng hành cùng thí sinh kỳ thi tuyển sinh lớp 10')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17249/CSGT-Hai-Phong-Doi-nang-dông-hanh-cung-thi-sinh-ky-thi-tuyen-sinh-lop-10.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT Hải Phòng \"Đội nắng\" đồng hành cùng thí sinh kỳ thi tuyển sinh lớp 10')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bc2af56-0af3-4dcf-a9c1-129c57ed6945",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Người nhà nạn nhân cảm kích trước tấm lòng của cán bộ chiến sĩ Đội CSGT",
+      "targets": [
+        ["linkText=Người nhà nạn nhân cảm kích trước tấm lòng của cán bộ chiến sĩ Đội CSGT", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Người nhà nạn nhân cảm kích trước tấm lòng của cán bộ chiến sĩ Đội CSGT')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17238/Nguoi-nha-nan-nhan-cam-kich-truoc-tam-long-cua-can-bo-chien-si-Doi-CSGT.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Người nhà nạn nhân cảm kích trước tấm lòng của cán bộ chiến sĩ Đội CSGT ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f827ebcd-c2b7-4493-a13f-958e9e374ebb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trao tặng nhiều phần quà cho CSGT đang làm nhiệm vụ dưới trời hè nóng bức",
+      "targets": [
+        ["linkText=Trao tặng nhiều phần quà cho CSGT đang làm nhiệm vụ dưới trời hè nóng bức", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Trao tặng nhiều phần quà cho CSGT đang làm nhiệm vụ dưới trời hè nóng bức')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17217/Trao-tang-nhieu-phan-qua-cho-CSGT-dang-lam-nhiem-vu-duoi-troi-hè-nong-buc.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trao tặng nhiều phần quà cho CSGT đang làm nhiệm vụ dưới trời hè nóng bức')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a120e587-d565-4f9c-82cc-e0f94d95beb8",
+    "name": "XemChiTiet_Anh_TC (T)",
+    "commands": [{
+      "id": "ab64e79d-41eb-4c0c-8145-4fe7d546484e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/gallery/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14cb05e3-8268-496f-a890-7378bf6aa03d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1463x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b3348d1-cdf2-4296-9e03-e61ed49c4f54",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.list:nth-child(1) img",
+      "targets": [
+        ["css=.list:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Phát động Chương trình ']", "xpath:img"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22a4c5f3-6b8c-409b-bb1f-3e67e1e9832f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.list:nth-child(1) img",
+      "targets": [
+        ["css=.list:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Phát động Chương trình ']", "xpath:img"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99752b4e-b538-401c-ac79-a87847b476e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phát động Chương trình \"Sáng kiến An toàn giao thông Việt Nam năm 2023\"",
+      "targets": [
+        ["linkText=Phát động Chương trình \"Sáng kiến An toàn giao thông Việt Nam năm 2023\"", "linkText"],
+        ["css=.list:nth-child(1) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Phát động Chương trình \"Sáng kiến An toàn giao thông Việt Nam năm 2023\"')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/gallery/1177/Phat-dong-Chuong-trinh-Sang-kien-An-toan-giao-thong-Viet-Nam-nam-2023.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Phát động Chương trình \"Sáng kiến An toàn giao thông Việt Nam năm 2023\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3e38417-c11e-41dd-8dbb-5eee9abf9a4c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300.37738037109375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb24ae34-49e1-4297-8e65-364b1cd03dd8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Huy động lực lượng Cảnh sát đường thủy tham gia tìm kiếm nạn nhân vụ rơi máy bay trực thăng Bell 505",
+      "targets": [
+        ["linkText=Huy động lực lượng Cảnh sát đường thủy tham gia tìm kiếm nạn nhân vụ rơi máy bay trực thăng Bell 505", "linkText"],
+        ["css=.list:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Huy động lực lượng Cảnh sát đường thủy tham gia tìm kiếm nạn nhân vụ rơi máy bay trực thăng Bell 505')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/gallery/1176/Huy-dong-luc-luong-Canh-sat-duong-thuy-tham-gia-tim-kiem-nan-nhan-vu-roi-may-bay-truc-thang-Bell-505.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Huy động lực lượng Cảnh sát đường thủy tham gia tìm kiếm nạn nhân vụ rơi máy bay trực thăng Bell 505')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "840fb311-18ef-435a-9583-ba48fb5d99c7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,501.8868103027344)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f9dcd8e-8a4a-4399-8b03-bbc23a373e60",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='gallery']/a/img",
+      "targets": [
+        ["xpath=//div[@id='gallery']/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0ac6672-4d01-4516-93f3-5c3e25a7731b",
+      "comment": "",
+      "command": "click",
+      "target": "id=jquery-lightbox",
+      "targets": [
+        ["id=jquery-lightbox", "id"],
+        ["css=#jquery-lightbox", "css:finder"],
+        ["xpath=//div[@id='jquery-lightbox']", "xpath:attributes"],
+        ["xpath=//body/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdd308df-3c8f-4f21-911b-921891ede696",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vi phạm nồng độ cồn ngày Tết, xử lý kiên quyết không ngại \"giông cả năm\"",
+      "targets": [
+        ["linkText=Vi phạm nồng độ cồn ngày Tết, xử lý kiên quyết không ngại \"giông cả năm\"", "linkText"],
+        ["css=.list:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vi phạm nồng độ cồn ngày Tết, xử lý kiên quyết không ngại \"giông cả năm\"')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/gallery/1170/Vi-pham-nông-do-côn-ngay-Tet,-xu-ly-kien-quyet-khong-ngai-giong-ca-nam.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vi phạm nồng độ cồn ngày Tết, xử lý kiên quyết không ngại \"giông cả năm\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3156ef26-eed8-4ab1-895c-a165b6963024",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ngày đầu 30 chiến sĩ CSGT ‘chi viện’ cho trung tâm đăng kiểm bị quá tải ở Hà Nội",
+      "targets": [
+        ["linkText=Ngày đầu 30 chiến sĩ CSGT ‘chi viện’ cho trung tâm đăng kiểm bị quá tải ở Hà Nội", "linkText"],
+        ["css=.list:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ngày đầu 30 chiến sĩ CSGT ‘chi viện’ cho trung tâm đăng kiểm bị quá tải ở Hà Nội')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/gallery/1172/Ngay-dau-30-chien-si-CSGT-chi-vien-cho-trung-tam-dang-kiem-bi-qua-tai-o-Ha-Noi.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ngày đầu 30 chiến sĩ CSGT ‘chi viện’ cho trung tâm đăng kiểm bị quá tải ở Hà Nội')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b27bebcf-0e67-47f9-83fa-55ff2f7d29af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT cứu tinh của nhiều phương tiện khi đi qua vùng ngập nước",
+      "targets": [
+        ["linkText=CSGT cứu tinh của nhiều phương tiện khi đi qua vùng ngập nước", "linkText"],
+        ["css=.list:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT cứu tinh của nhiều phương tiện khi đi qua vùng ngập nước')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/div[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/gallery/1163/CSGT-cuu-tinh-cua-nhieu-phuong-tien-khi-di-qua-vung-ngap-nuoc.html')]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT cứu tinh của nhiều phương tiện khi đi qua vùng ngập nước')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ea9a412-28fb-4f27-9d8d-7185ba161ab8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT Thừa Thiên - Huế tập trung chống lũ trên QL1A",
+      "targets": [
+        ["linkText=CSGT Thừa Thiên - Huế tập trung chống lũ trên QL1A", "linkText"],
+        ["css=.list:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT Thừa Thiên - Huế tập trung chống lũ trên QL1A')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/div[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/gallery/1164/CSGT-Thua-Thien---Hue-tap-trung-chong-lu-tren-QL1A.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT Thừa Thiên - Huế tập trung chống lũ trên QL1A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f6ddeea-58d9-42ee-b743-511fb7d36783",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1101.132080078125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17119cf9-f33a-44a4-9d98-3f88ea3d0569",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT cứu tinh của nhiều phương tiện khi đi qua vùng ngập nước",
+      "targets": [
+        ["linkText=CSGT cứu tinh của nhiều phương tiện khi đi qua vùng ngập nước", "linkText"],
+        ["css=.list:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT cứu tinh của nhiều phương tiện khi đi qua vùng ngập nước')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/div[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/gallery/1163/CSGT-cuu-tinh-cua-nhieu-phuong-tien-khi-di-qua-vung-ngap-nuoc.html')]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT cứu tinh của nhiều phương tiện khi đi qua vùng ngập nước')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c6192cc-ecec-4846-af0a-1f5280178109",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600.0000610351562)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "433bbd5c-0da2-4f3a-aac5-4f88d16eac39",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vi phạm nồng độ cồn ngày Tết, xử lý kiên quyết không ngại \"giông cả năm\"",
+      "targets": [
+        ["linkText=Vi phạm nồng độ cồn ngày Tết, xử lý kiên quyết không ngại \"giông cả năm\"", "linkText"],
+        ["css=.list:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vi phạm nồng độ cồn ngày Tết, xử lý kiên quyết không ngại \"giông cả năm\"')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/gallery/1170/Vi-pham-nông-do-côn-ngay-Tet,-xu-ly-kien-quyet-khong-ngai-giong-ca-nam.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vi phạm nồng độ cồn ngày Tết, xử lý kiên quyết không ngại \"giông cả năm\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b02b4231-d2d3-4826-8321-77ef3ce87e26",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1541.8868408203125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66a923bd-b0ae-43b7-8862-377c256ea8f3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Huy động lực lượng Cảnh sát đường thủy tham gia tìm kiếm nạn nhân vụ rơi máy bay trực thăng Bell 505",
+      "targets": [
+        ["linkText=Huy động lực lượng Cảnh sát đường thủy tham gia tìm kiếm nạn nhân vụ rơi máy bay trực thăng Bell 505", "linkText"],
+        ["css=.list:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Huy động lực lượng Cảnh sát đường thủy tham gia tìm kiếm nạn nhân vụ rơi máy bay trực thăng Bell 505')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/gallery/1176/Huy-dong-luc-luong-Canh-sat-duong-thuy-tham-gia-tim-kiem-nan-nhan-vu-roi-may-bay-truc-thang-Bell-505.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Huy động lực lượng Cảnh sát đường thủy tham gia tìm kiếm nạn nhân vụ rơi máy bay trực thăng Bell 505')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52fa5a61-ef94-470b-ac44-64d09164797c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT Thừa Thiên - Huế tập trung chống lũ trên QL1A",
+      "targets": [
+        ["linkText=CSGT Thừa Thiên - Huế tập trung chống lũ trên QL1A", "linkText"],
+        ["css=.list:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT Thừa Thiên - Huế tập trung chống lũ trên QL1A')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/div[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/gallery/1164/CSGT-Thua-Thien---Hue-tap-trung-chong-lu-tren-QL1A.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT Thừa Thiên - Huế tập trung chống lũ trên QL1A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0235430f-73e3-46c1-9b8d-280a383d17bb",
+    "name": "XemChiTiet_Video_TC (T)",
+    "commands": [{
+      "id": "0daf53ff-bb0e-49cd-ac4d-676946b6e899",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/video/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d326695-5480-4ef9-93ad-e987c1b27be7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1463x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cbf1d1d-6053-44f6-9feb-d9acda593ebe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cảnh sát đường thủy bắt tàu hút cát trái phép trên sông Hồng",
+      "targets": [
+        ["linkText=Cảnh sát đường thủy bắt tàu hút cát trái phép trên sông Hồng", "linkText"],
+        ["css=.listItem:nth-child(2) .info > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cảnh sát đường thủy bắt tàu hút cát trái phép trên sông Hồng')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/video/1364/Canh-sat-duong-thuy-bat-tau-hut-cat-trai-phep-tren-song-Hông.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cảnh sát đường thủy bắt tàu hút cát trái phép trên sông Hồng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "164d7c21-a41b-44ee-ba55-c59ebb0e69e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=my-videox_display_button_play",
+      "targets": [
+        ["id=my-videox_display_button_play", "id"],
+        ["css=#my-videox_display_button_play", "css:finder"],
+        ["xpath=//div[@id='my-videox_display_button_play']", "xpath:attributes"],
+        ["xpath=//div[@id='my-videox_display_button']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85ace63b-c816-4aba-963a-f6538dd88ba6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lực lượng CSGT tỉnh Hà Nam bảo đảm TTATGT dịp Nghỉ lễ 30/4, 1/5",
+      "targets": [
+        ["linkText=Lực lượng CSGT tỉnh Hà Nam bảo đảm TTATGT dịp Nghỉ lễ 30/4, 1/5", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Lực lượng CSGT tỉnh Hà Nam bảo đảm TTATGT dịp Nghỉ lễ 30/4, 1/5')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1363/Luc-luong-CSGT-tinh-Ha-Nam-bao-dam-TTATGT-dip-Nghi-le-30/4,-1/5.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lực lượng CSGT tỉnh Hà Nam bảo đảm TTATGT dịp Nghỉ lễ 30/4, 1/5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91db19d0-ac1a-4580-ad0f-986dfc7a6d1e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,287.54718017578125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "932aa97e-2c39-46a3-a670-7319f77af043",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vấn đề ùn tắc và nâng cao ý thức người tham gia giao thông",
+      "targets": [
+        ["linkText=Vấn đề ùn tắc và nâng cao ý thức người tham gia giao thông", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vấn đề ùn tắc và nâng cao ý thức người tham gia giao thông')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1362/Van-de-un-tac-va-nang-cao-y-thuc-nguoi-tham-gia-giao-thong.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vấn đề ùn tắc và nâng cao ý thức người tham gia giao thông')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ced5a431-af02-45ec-a245-8dd0137db4ab",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700.3773803710938)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc86bba5-cf21-4889-ba72-61f28b9fd9c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Truy lùng xe \"quá tải\" lẩn khuất trong màn đêm",
+      "targets": [
+        ["linkText=Truy lùng xe \"quá tải\" lẩn khuất trong màn đêm", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Truy lùng xe \"quá tải\" lẩn khuất trong màn đêm')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1360/Truy-lung-xe-qua-tai-lan-khuat-trong-man-dem.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Truy lùng xe \"quá tải\" lẩn khuất trong màn đêm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b43f9e2b-155f-437d-881b-ae60cb2966b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_home_news_home_rel:nth-child(21)",
+      "targets": [
+        ["css=.box_home_news_home_rel:nth-child(21)", "css:finder"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[21]", "xpath:idRelative"],
+        ["xpath=//div[21]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2745c4bc-4c75-4e0a-aae3-577f464ccd5b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hành trình thông minh: Dạo quanh khu phố ẩm thực Hồ Thị Kỷ",
+      "targets": [
+        ["linkText=Hành trình thông minh: Dạo quanh khu phố ẩm thực Hồ Thị Kỷ", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(21) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hành trình thông minh: Dạo quanh khu phố ẩm thực Hồ Thị Kỷ')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[21]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1344/Hanh-trinh-thong-minh:-Dao-quanh-khu-pho-am-thuc-Hô-Thi-Ky.html')]", "xpath:href"],
+        ["xpath=//div[21]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hành trình thông minh: Dạo quanh khu phố ẩm thực Hồ Thị Kỷ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3f3035f-41f1-4aad-a253-b8d5ad745003",
+      "comment": "",
+      "command": "click",
+      "target": "id=my-videox_display_button",
+      "targets": [
+        ["id=my-videox_display_button", "id"],
+        ["css=#my-videox_display_button", "css:finder"],
+        ["xpath=//div[@id='my-videox_display_button']", "xpath:attributes"],
+        ["xpath=//div[@id='my-videox_display']/div[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "515d3d6e-0325-456d-a94f-a633dde6b3fc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSGT Thừa Thiên - Huế \"bơi\" trong biển nước điều tiết giao thông",
+      "targets": [
+        ["linkText=CSGT Thừa Thiên - Huế \"bơi\" trong biển nước điều tiết giao thông", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(30) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSGT Thừa Thiên - Huế \"bơi\" trong biển nước điều tiết giao thông')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[30]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1335/CSGT-Thua-Thien---Hue-boi-trong-bien-nuoc-dieu-tiet-giao-thong.html')]", "xpath:href"],
+        ["xpath=//div[30]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSGT Thừa Thiên - Huế \"bơi\" trong biển nước điều tiết giao thông')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e016463-b16c-4e7b-a9d5-b0c48f6b20c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jwpreview",
+      "targets": [
+        ["css=.jwpreview", "css:finder"],
+        ["xpath=//div[@id='my-videox_display']/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c3dc0d9-36a2-4fc3-a0a5-cf0a81a0a4d3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xử lý chéo vi phạm TTATGT đem lại hiệu quả rõ rệt",
+      "targets": [
+        ["linkText=Xử lý chéo vi phạm TTATGT đem lại hiệu quả rõ rệt", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(37) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Xử lý chéo vi phạm TTATGT đem lại hiệu quả rõ rệt')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[37]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1327/Xu-ly-cheo-vi-pham-TTATGT-dem-lai-hieu-qua-ro-ret.html')]", "xpath:href"],
+        ["xpath=//div[37]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xử lý chéo vi phạm TTATGT đem lại hiệu quả rõ rệt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2543e780-6e35-4887-a11d-e4c7a2b6127d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_home_news_home_rel:nth-child(32)",
+      "targets": [
+        ["css=.box_home_news_home_rel:nth-child(32)", "css:finder"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[32]", "xpath:idRelative"],
+        ["xpath=//div[32]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7580ce9f-eefb-4793-a1c3-3ada4065f7cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cao điểm làm chuyển biến tình hình giao thông",
+      "targets": [
+        ["linkText=Cao điểm làm chuyển biến tình hình giao thông", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(32) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cao điểm làm chuyển biến tình hình giao thông')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[32]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1333/Cao-diem-lam-chuyen-bien-tinh-hinh-giao-thong.html')]", "xpath:href"],
+        ["xpath=//div[32]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cao điểm làm chuyển biến tình hình giao thông')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eecb57b0-18c0-4e9a-b628-4156497ab0cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lễ phát động Chương trình Sáng kiến ATGT Việt Nam 2022",
+      "targets": [
+        ["linkText=Lễ phát động Chương trình Sáng kiến ATGT Việt Nam 2022", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(41) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Lễ phát động Chương trình Sáng kiến ATGT Việt Nam 2022')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[41]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1323/Le-phat-dong-Chuong-trinh-Sang-kien-ATGT-Viet-Nam-2022.html')]", "xpath:href"],
+        ["xpath=//div[41]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lễ phát động Chương trình Sáng kiến ATGT Việt Nam 2022')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3635641c-b8ae-4cff-a84c-665450624232",
+      "comment": "",
+      "command": "click",
+      "target": "id=my-videox_display_button_play",
+      "targets": [
+        ["id=my-videox_display_button_play", "id"],
+        ["css=#my-videox_display_button_play", "css:finder"],
+        ["xpath=//div[@id='my-videox_display_button_play']", "xpath:attributes"],
+        ["xpath=//div[@id='my-videox_display_button']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb2fec25-a001-4850-9d25-805d3df0fddd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_home_news_home_rel:nth-child(42)",
+      "targets": [
+        ["css=.box_home_news_home_rel:nth-child(42)", "css:finder"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[42]", "xpath:idRelative"],
+        ["xpath=//div[42]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93d9dc69-3ba3-4dbf-91bc-5439b79295d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chương trình Sáng kiến ATGT năm 2022",
+      "targets": [
+        ["linkText=Chương trình Sáng kiến ATGT năm 2022", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(42) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Chương trình Sáng kiến ATGT năm 2022')])[2]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[42]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1322/Chuong-trinh-Sang-kien-ATGT-nam-2022.html')]", "xpath:href"],
+        ["xpath=//div[42]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e160931-4053-4796-95ea-84b211adab37",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hành trình thông minh: Khoảng lặng giữa lòng thành phố",
+      "targets": [
+        ["linkText=Hành trình thông minh: Khoảng lặng giữa lòng thành phố", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(62) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hành trình thông minh: Khoảng lặng giữa lòng thành phố')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[62]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1300/Hanh-trinh-thong-minh:-Khoang-lang-giua-long-thanh-pho.html')]", "xpath:href"],
+        ["xpath=//div[62]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hành trình thông minh: Khoảng lặng giữa lòng thành phố')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "932a20d6-7b6a-4f2f-9b33-ad7af68d2bc9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ca khúc: Bài ca Thủy đoàn",
+      "targets": [
+        ["linkText=Ca khúc: Bài ca Thủy đoàn", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(41) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ca khúc: Bài ca Thủy đoàn')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[41]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1324/Ca-khuc:-Bai-ca-Thuy-doan.html')]", "xpath:href"],
+        ["xpath=//div[41]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ca khúc: Bài ca Thủy đoàn')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2cbccc0-84dc-4b61-99e5-cdf565953472",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_home_news_home_rel:nth-child(101)",
+      "targets": [
+        ["css=.box_home_news_home_rel:nth-child(101)", "css:finder"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[101]", "xpath:idRelative"],
+        ["xpath=//div[101]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d52b0646-906b-451b-8686-7d3ca27a6e7c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phát hiện, bắt giữ đối tượng tàng trữ ma túy trên cao tốc Nội Bài - Lào Cai",
+      "targets": [
+        ["linkText=Phát hiện, bắt giữ đối tượng tàng trữ ma túy trên cao tốc Nội Bài - Lào Cai", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(100) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Phát hiện, bắt giữ đối tượng tàng trữ ma túy trên cao tốc Nội Bài - Lào Cai')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[100]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1259/Phat-hien,-bat-giu-doi-tuong-tang-tru-ma-tuy-tren-cao-toc-Noi-Bai---Lao-Cai.html')]", "xpath:href"],
+        ["xpath=//div[100]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Phát hiện, bắt giữ đối tượng tàng trữ ma túy trên cao tốc Nội Bài - Lào Cai')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f82773f-e4a4-461d-9770-ad5e054a1d01",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cắt hạ thành thùng xe trên tuyến cao tốc Nội Bài - Lào Cai",
+      "targets": [
+        ["linkText=Cắt hạ thành thùng xe trên tuyến cao tốc Nội Bài - Lào Cai", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(68) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cắt hạ thành thùng xe trên tuyến cao tốc Nội Bài - Lào Cai')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[68]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1294/Cat-ha-thanh-thung-xe-tren-tuyen-cao-toc-Noi-Bai---Lao-Cai.html')]", "xpath:href"],
+        ["xpath=//div[68]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cắt hạ thành thùng xe trên tuyến cao tốc Nội Bài - Lào Cai')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4956c89-4eff-4b53-8248-cbe1f1894e58",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tiếp tục xây dựng hình ảnh CSGT vì nhân dân phục vụ",
+      "targets": [
+        ["linkText=Tiếp tục xây dựng hình ảnh CSGT vì nhân dân phục vụ", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(103) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tiếp tục xây dựng hình ảnh CSGT vì nhân dân phục vụ')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[103]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1256/Tiep-tuc-xay-dung-hinh-anh-CSGT-vi-nhan-dan-phuc-vu.html')]", "xpath:href"],
+        ["xpath=//div[103]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tiếp tục xây dựng hình ảnh CSGT vì nhân dân phục vụ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "319cc0b2-b2df-46a3-9ff9-b3747503eedb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chương tình tọa đàm \"Sắc nắng trên những tuyến đường\"",
+      "targets": [
+        ["linkText=Chương tình tọa đàm \"Sắc nắng trên những tuyến đường\"", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(92) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Chương tình tọa đàm \"Sắc nắng trên những tuyến đường\"')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/i/div[2]/div[92]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/video/1271/Chuong-tinh-toa-dam-Sac-nang-tren-nhung-tuyen-duong.html')]", "xpath:href"],
+        ["xpath=//div[92]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chương tình tọa đàm \"Sắc nắng trên những tuyến đường\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a6f313e-07c5-4650-bca7-db7926f1fbeb",
+      "comment": "",
+      "command": "click",
+      "target": "id=my-videox_display_button_play",
+      "targets": [
+        ["id=my-videox_display_button_play", "id"],
+        ["css=#my-videox_display_button_play", "css:finder"],
+        ["xpath=//div[@id='my-videox_display_button_play']", "xpath:attributes"],
+        ["xpath=//div[@id='my-videox_display_button']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b46ab2f8-b0e8-4d59-8feb-efa3bb5dfb3d",
+    "name": "XemChiTiet_GiaiDapPhapLuat_TC (T)",
+    "commands": [{
+      "id": "bfe33542-aa18-42e2-b322-894f600b02af",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/tintuc/c-196/Giai-dap-phap-luat.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b291a749-211e-4fc6-8aaa-478e5be51032",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1463x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8521bc3-29d1-4cf7-98e5-562345331a10",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sử dụng giấy tờ không do cơ quan có thẩm quyền cấp là vi phạm pháp luật",
+      "targets": [
+        ["linkText=Sử dụng giấy tờ không do cơ quan có thẩm quyền cấp là vi phạm pháp luật", "linkText"],
+        ["css=.list:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sử dụng giấy tờ không do cơ quan có thẩm quyền cấp là vi phạm pháp luật')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17227/Su-dung-giay-to-khong-do-co-quan-co-tham-quyen-cap-la-vi-pham-phap-luat.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sử dụng giấy tờ không do cơ quan có thẩm quyền cấp là vi phạm pháp luật')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a64c231-14d7-4e3f-bc22-0f7cab02b5cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box_center > div > div:nth-child(2)",
+      "targets": [
+        ["css=.box_center > div > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='advance']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6ae86c6-be5c-4fff-8b6e-692de39a285d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Áp dụng quy định mới nhất về mức lãi chậm nộp phạt vi...",
+      "targets": [
+        ["linkText=Áp dụng quy định mới nhất về mức lãi chậm nộp phạt vi...", "linkText"],
+        ["css=div:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Áp dụng quy định mới nhất về mức lãi chậm nộp phạt vi...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17035/Ap-dung-quy-dinh-moi-nhat-ve-muc-lai-cham-nop-phat-vi-pham-giao-thong-tu-5/5.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Áp dụng quy định mới nhất về mức lãi chậm nộp phạt vi...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f38b5c7-4f4c-421b-93c5-2038a6da1a58",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sự thật việc CSGT dừng xe cứu thương để kiểm tra",
+      "targets": [
+        ["linkText=Sự thật việc CSGT dừng xe cứu thương để kiểm tra", "linkText"],
+        ["css=div:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sự thật việc CSGT dừng xe cứu thương để kiểm tra')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17031/Su-that-viec-CSGT-dung-xe-cuu-thuong-de-kiem-tra.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sự thật việc CSGT dừng xe cứu thương để kiểm tra')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b106a553-9666-4676-9255-c3be7925648e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nghiêm cấm người điều khiển phương tiện tham gia giao thông...",
+      "targets": [
+        ["linkText=Nghiêm cấm người điều khiển phương tiện tham gia giao thông...", "linkText"],
+        ["css=div:nth-child(4) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Nghiêm cấm người điều khiển phương tiện tham gia giao thông...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/16760/Nghiem-cam-nguoi-dieu-khien-phuong-tien-tham-gia-giao-thong-duong-bo-ma-trong-mau-hoac-hoi-tho-co-nông-do-côn.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Nghiêm cấm người điều khiển phương tiện tham gia giao thông...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21190522-7812-4df4-aa9c-7ffc858cc442",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quy tắc giao thông tại các tuyến đường bộ giao nhau với...",
+      "targets": [
+        ["linkText=Quy tắc giao thông tại các tuyến đường bộ giao nhau với...", "linkText"],
+        ["css=div:nth-child(5) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quy tắc giao thông tại các tuyến đường bộ giao nhau với...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[4]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/16633/Quy-tac-giao-thong-tai-cac-tuyen-duong-bo-giao-nhau-voi-duong-sat.html')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Quy tắc giao thông tại các tuyến đường bộ giao nhau với...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "429d1aa9-24e4-4fcd-91c6-54550f4ca1f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mức phạt với người dưới 16 tuổi vi phạm Luật giao thông đường bộ",
+      "targets": [
+        ["linkText=Mức phạt với người dưới 16 tuổi vi phạm Luật giao thông đường bộ", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mức phạt với người dưới 16 tuổi vi phạm Luật giao thông đường bộ')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16134/Muc-phat-voi-nguoi-duoi-16-tuoi-vi-pham-Luat-giao-thong-duong-bo.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mức phạt với người dưới 16 tuổi vi phạm Luật giao thông đường bộ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90537059-0479-4ca4-8fc1-d1b3188a0bd1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hướng dẫn thủ tục đăng ký xe trực tuyến tại hệ thống dịch vụ công Bộ Công an",
+      "targets": [
+        ["linkText=Hướng dẫn thủ tục đăng ký xe trực tuyến tại hệ thống dịch vụ công Bộ Công an", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hướng dẫn thủ tục đăng ký xe trực tuyến tại hệ thống dịch vụ công Bộ Công an')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/15874/Huong-dan-thu-tuc-dang-ky-xe-truc-tuyen-tai-he-thong-dich-vu-cong-Bo-Cong-an.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hướng dẫn thủ tục đăng ký xe trực tuyến tại hệ thống dịch vụ công Bộ Công an')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0adb05ac-f67e-4552-8907-12629b70abb0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mức phạt với người dưới 16 tuổi vi phạm Luật giao thông đường bộ",
+      "targets": [
+        ["linkText=Mức phạt với người dưới 16 tuổi vi phạm Luật giao thông đường bộ", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mức phạt với người dưới 16 tuổi vi phạm Luật giao thông đường bộ')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16134/Muc-phat-voi-nguoi-duoi-16-tuoi-vi-pham-Luat-giao-thong-duong-bo.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mức phạt với người dưới 16 tuổi vi phạm Luật giao thông đường bộ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e6e03b5-862b-438b-a330-2e3b2175c530",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Giấy phép lái xe quốc tế IAA không được công nhận tại Việt Nam",
+      "targets": [
+        ["linkText=Giấy phép lái xe quốc tế IAA không được công nhận tại Việt Nam", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Giấy phép lái xe quốc tế IAA không được công nhận tại Việt Nam')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/15547/Giay-phep-lai-xe-quoc-te-IAA-khong-duoc-cong-nhan-tai-Viet-Nam.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Giấy phép lái xe quốc tế IAA không được công nhận tại Việt Nam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a47d0290-e79e-442f-bcb9-c404338b0fce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quy tắc giao thông tại các tuyến đường bộ giao nhau với đường sắt",
+      "targets": [
+        ["linkText=Quy tắc giao thông tại các tuyến đường bộ giao nhau với đường sắt", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Quy tắc giao thông tại các tuyến đường bộ giao nhau với đường sắt')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16633/Quy-tac-giao-thong-tai-cac-tuyen-duong-bo-giao-nhau-voi-duong-sat.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quy tắc giao thông tại các tuyến đường bộ giao nhau với đường sắt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e7449871-9405-4184-a009-1deb5c363372",
+    "name": "XemChiTiet_NghienCuuTraoDoi_TC (T)",
+    "commands": [{
+      "id": "b1010fbc-5919-402c-843a-2cc327f91aac",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.csgt.vn/tintuc/c-206/Nghien-cuu---Trao-doi.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cea5822b-1d34-448c-9f32-5114f103ddfa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1463x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f99ce10f-8399-4b62-9b3a-e0a525c61719",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(9) .menu_item",
+      "targets": [
+        ["css=li:nth-child(9) .menu_item", "css:finder"],
+        ["xpath=//div[@id='page']/div/div/div[3]/div/div/ul/li[9]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/ul/li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Nghiên cứu - Trao đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8787324f-eb54-4b36-8cf7-66546e0f9efc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.menu_active",
+      "targets": [
+        ["css=.menu_active", "css:finder"],
+        ["xpath=//div[@id='page']/div/div/div[3]/div/div/ul/li[9]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/ul/li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Nghiên cứu - Trao đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db677bc7-0f02-4bf6-a5f0-df54ea0cdd92",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vận dụng tư tưởng Hồ Chí Minh về thi đua yêu nước trong bảo đảm TTATGT, TTTXH",
+      "targets": [
+        ["linkText=Vận dụng tư tưởng Hồ Chí Minh về thi đua yêu nước trong bảo đảm TTATGT, TTTXH", "linkText"],
+        ["css=.list:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vận dụng tư tưởng Hồ Chí Minh về thi đua yêu nước trong bảo đảm TTATGT, TTTXH')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/17273/Van-dung-tu-tuong-Hô-Chi-Minh-ve-thi-dua-yeu-nuoc-trong-bao-dam-TTATGT,-TTTXH.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vận dụng tư tưởng Hồ Chí Minh về thi đua yêu nước trong bảo đảm TTATGT, TTTXH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18b32839-3632-4a79-824c-f3768bfe9aac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tăng cường sự lãnh đạo của Đảng đối với công tác...",
+      "targets": [
+        ["linkText=Tăng cường sự lãnh đạo của Đảng đối với công tác...", "linkText"],
+        ["css=div:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tăng cường sự lãnh đạo của Đảng đối với công tác...')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.csgt.vn/tintuc/17195/Tang-cuong-su-lanh-dao-cua-Dang-doi-voi-cong-tac-bao-dam-trat-tu,-an-toan-giao-thong-trong-tinh-hinh-moi.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tăng cường sự lãnh đạo của Đảng đối với công tác...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22ec1c42-09ef-4250-86d3-181a0a5b3fe1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu_active",
+      "targets": [
+        ["css=.menu_active", "css:finder"],
+        ["xpath=//div[@id='page']/div/div/div[3]/div/div/ul/li[9]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/ul/li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Nghiên cứu - Trao đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b65c5618-7611-4299-bf8a-4624422cae62",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đề cương tuyên truyền kỷ niệm 50 năm chiến thắng Hà Nội - Điện Biên Phủ trên không (12/1972 - 12/2022)",
+      "targets": [
+        ["linkText=Đề cương tuyên truyền kỷ niệm 50 năm chiến thắng Hà Nội - Điện Biên Phủ trên không (12/1972 - 12/2022)", "linkText"],
+        ["css=.list:nth-child(20) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Đề cương tuyên truyền kỷ niệm 50 năm chiến thắng Hà Nội - Điện Biên Phủ trên không (12/1972 - 12/2022)')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[20]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16065/De-cuong-tuyen-truyen-ky-niem-50-nam-chien-thang-Ha-Noi---Dien-Bien-Phu-tren-khong-(12/1972---12/2022).html')]", "xpath:href"],
+        ["xpath=//div[20]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đề cương tuyên truyền kỷ niệm 50 năm chiến thắng Hà Nội - Điện Biên Phủ trên không (12/1972 - 12/2022)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "442e579e-8f93-4204-90aa-20f1b9d75da7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dấu ấn CSGT trong xây dựng thói quen “đã uống rượu bia thì không lái xe”",
+      "targets": [
+        ["linkText=Dấu ấn CSGT trong xây dựng thói quen “đã uống rượu bia thì không lái xe”", "linkText"],
+        ["css=.box_home_news_home_rel:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Dấu ấn CSGT trong xây dựng thói quen “đã uống rượu bia thì không lái xe”')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[3]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/16845/Dau-an-CSGT-trong-xay-dung-thoi-quen-da-uong-ruou-bia-thi-khong-lai-xe.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dấu ấn CSGT trong xây dựng thói quen “đã uống rượu bia thì không lái xe”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41e81f47-8917-4079-a5cf-eb63dd97dc31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu_active",
+      "targets": [
+        ["css=.menu_active", "css:finder"],
+        ["xpath=//div[@id='page']/div/div/div[3]/div/div/ul/li[9]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/ul/li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Nghiên cứu - Trao đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3de0f03a-dd19-4939-8a8d-bee1cf8290b7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=5",
+      "targets": [
+        ["linkText=5", "linkText"],
+        ["css=.span_a_class:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'5')])[4]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[21]/span/span[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tintuc/c-206/Nghien-cuu---Trao-doi.html/5/')]", "xpath:href"],
+        ["xpath=//span[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcffcf9b-d2f7-4510-9acf-954829ff6458",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Toàn văn phát biểu của Tổng Bí thư, Chủ tịch Nước tại Đại hội XIII của Đảng",
+      "targets": [
+        ["linkText=Toàn văn phát biểu của Tổng Bí thư, Chủ tịch Nước tại Đại hội XIII của Đảng", "linkText"],
+        ["css=.list:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Toàn văn phát biểu của Tổng Bí thư, Chủ tịch Nước tại Đại hội XIII của Đảng')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/12363/Toan-van-phat-bieu-cua-Tong-Bi-thu,-Chu-tich-Nuoc-tai-Dai-hoi-XIII-cua-Dang.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Toàn văn phát biểu của Tổng Bí thư, Chủ tịch Nước tại Đại hội XIII của Đảng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c68d8732-6d63-494c-85b1-5c6f400b2e4b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200.00001525878906)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c1671d5-ceaa-4e32-afdb-c9e4c4c5f182",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lực lượng CAND quyết tâm bảo đảm tuyệt đối an ninh, an toàn Đại hội XIII của Đảng",
+      "targets": [
+        ["linkText=Lực lượng CAND quyết tâm bảo đảm tuyệt đối an ninh, an toàn Đại hội XIII của Đảng", "linkText"],
+        ["css=.list:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Lực lượng CAND quyết tâm bảo đảm tuyệt đối an ninh, an toàn Đại hội XIII của Đảng')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/12301/Luc-luong-CAND-quyet-tam-bao-dam-tuyet-doi-an-ninh,-an-toan-Dai-hoi-XIII-cua-Dang.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lực lượng CAND quyết tâm bảo đảm tuyệt đối an ninh, an toàn Đại hội XIII của Đảng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c67d8f10-e387-405d-9bdd-91589bbc73db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nâng cao hiệu quả \"phạt nguội\" vi phạm giao thông đường bộ",
+      "targets": [
+        ["linkText=Nâng cao hiệu quả \"phạt nguội\" vi phạm giao thông đường bộ", "linkText"],
+        ["css=.list:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Nâng cao hiệu quả \"phạt nguội\" vi phạm giao thông đường bộ')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/12192/Nang-cao-hieu-qua-phat-nguoi-vi-pham-giao-thong-duong-bo.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nâng cao hiệu quả \"phạt nguội\" vi phạm giao thông đường bộ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe3ff3dc-0baf-4508-acee-47a0292a87c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thực trạng TNGT đường thủy nội địa liên quan đến phương tiện thủy gia dụng và giải pháp phòng ngừa.",
+      "targets": [
+        ["linkText=Thực trạng TNGT đường thủy nội địa liên quan đến phương tiện thủy gia dụng và giải pháp phòng ngừa.", "linkText"],
+        ["css=.list:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Thực trạng TNGT đường thủy nội địa liên quan đến phương tiện thủy gia dụng và giải pháp phòng ngừa.')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/11956/Thuc-trang-TNGT-duong-thuy-noi-dia-lien-quan-den-phuong-tien-thuy-gia-dung-va-giai-phap-phong-ngua..html')]", "xpath:href"],
+        ["xpath=//div[2]/div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thực trạng TNGT đường thủy nội địa liên quan đến phương tiện thủy gia dụng và giải pháp phòng ngừa.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1caf6537-1cc6-41bc-9504-5c2172902368",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list:nth-child(11) > a",
+      "targets": [
+        ["css=.list:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ưu tiên ứng dụng khoa học công nghệ hiện đại trong Luật  Bảo đảm TTATGT đường bộ')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/11755/Uu-tien-ung-dung-khoa-hoc-cong-nghe-hien-dai-trong-Luat--Bao-dam-TTATGT-duong-bo.html')]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01f84846-60dd-4f1d-a6a3-578214b381f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bỏ trốn khi gây tai nạn, hành vi cần bị trừng trị",
+      "targets": [
+        ["linkText=Bỏ trốn khi gây tai nạn, hành vi cần bị trừng trị", "linkText"],
+        ["css=.list:nth-child(17) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bỏ trốn khi gây tai nạn, hành vi cần bị trừng trị')]", "xpath:link"],
+        ["xpath=//div[@id='advance']/div/div[2]/div[17]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.csgt.vn/tintuc/11701/Bo-tron-khi-gay-tai-nan,-hanh-vi-can-bi-trung-tri.html')]", "xpath:href"],
+        ["xpath=//div[17]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bỏ trốn khi gây tai nạn, hành vi cần bị trừng trị')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cd15ffdf-d828-43a4-a909-cee134a8ac00",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d8696269-3ab5-4774-a1dd-cf9a13e710f3"]
+  }],
+  "urls": ["https://www.csgt.vn/ykiencongdan/", "https://www.csgt.vn/video/", "https://www.csgt.vn/", "https://www.csgt.vn/tintuc/c-149/Nguoi-tot-viec-tot.html", "https://www.csgt.vn/gallery/", "https://www.csgt.vn/tintuc/c-90/Gioi-thieu.html", "https://www.csgt.vn/tintuc/c-50/An-toan-giao-thong.html", "https://www.csgt.vn/tintuc/c-235/Chuong-trinh-Sang-kien-ATGT-2023.html", "https://www.csgt.vn/tra-cuu-phuong-tien-vi-pham.html?&LoaiXe=1&BienKiemSoat=29C199999", "https://www.csgt.vn/tintuc/c-206/Nghien-cuu---Trao-doi.html", "https://www.csgt.vn/tintuc/c-196/Giai-dap-phap-luat.html", "https://www.csgt.vn/tintuc/c-91/Canh-sat-giao-thong-24/7.html", "https://www.csgt.vn/vanbanphapluat/", "http://csgt.vn:8888/Home/FormNopHoSo/41", "https://www.csgt.vn/tra-cuu-phuong-tien-vi-pham.html"],
+  "plugins": []
+}
